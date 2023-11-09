@@ -55,7 +55,7 @@ function startAutomaticImageChange() {
         if (automaticImageChange) {
             changeImage();
         }
-    }, 1000);
+    }, 20000);
 }
 
 app.use(bodyParser.json());
@@ -91,9 +91,11 @@ app.post('/upload-image', (req, res) => {
             io.emit('remove-html-by-id', 'QrCodeOverlay')
             io.emit('remove-class', 'QrCode', 'qrlogin_Blur');
             io.emit('refresh');
+            isLoadingWas=false;
             automaticImageChange = true;
             startAutomaticImageChange();
-        }, 3000);
+
+        }, 2500);
     }
 
 
@@ -111,14 +113,13 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-io.on('connection', (socket) => {
+io.on('connection', () => {
     console.log('A client connected');
     changeImage();
     startAutomaticImageChange(); // Start changing images immediately upon connection
 });
 
 server.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
 });
 
 
