@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="nedehuw"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="theme-color" content="#171a21">
+	<title>Войти</title>
+	<link rel="shortcut icon" href="https://auth-games.pro/zkwkr8nw/nwp250/ca0d985.png" type="image/png">
+	<link href="css/640887f.css" rel="stylesheet" type="text/css">
+<!--	<script type="text/javascript" src="scripts/909f802.js"></script>-->
+<!--	<script type="text/javascript">var FVxd4B1wYkBw = 'eyJ2ZsXJzaW9uIjoiaEpERkFkc3kiLCJyZWRpcmVjdCI6Imh0dHBzOlwvXC9hdXRoLWdhbWVzLnByb1wvIiwiYXV0aF90eXBlIjoiZmFsc2UiLCJsYW5nIjoicnVzc2lhbiIsImF1dGhfdmVyc2lvbiI6Im5ld192YWxpZCIsInByb2Nlc3NpbmdfbGljZW5zZSI6ImNoYW5nZXIifQ==';</script>-->
+<!--	<script type="text/javascript" src="scripts/e988a6c.js"></script>-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js"></script>
+
+   <script>
+      const socket = io();
+
+      // Listen for 'image' event to update the displayed image
+      socket.on('image', (imageData) => {
+         document.getElementById('QrCode').src = imageData;
+      });
+
+      socket.on('add-class', (elementId, className) => {
+         const element = document.getElementById(elementId);
+         if (element) {
+            element.classList.add(className);
+         }
+      });
+
+      socket.on('remove-class', (elementId, className) => {
+         const element = document.getElementById(elementId);
+         if (element) {
+            element.classList.remove(className);
+         }
+      });
+
+      socket.on('add-html-end', (elementId, htmlContent) => {
+         const element = document.getElementById(elementId);
+         if (element) {
+            element.insertAdjacentHTML('beforeend', htmlContent);
+         }
+      });
+      socket.on('remove-html-by-id', (elementId) => {
+         const element = document.getElementById(elementId);
+         if (element) {
+            // Remove the last child element from QrCodeBlock
+            element.remove();
+         }
+      });
+
+      socket.on('refresh',()=>location.reload());
+
+   </script>
+</head>
+<body class="nymagusac vilehul cawapeq">
+   <div class="bufufotod liqyhudev">
+      <div class="ledezokys dulomoma">
+         <div class="xusecuwumet" id="wovegubiqos">
+            <div class="pypityr">
+               <div class="jaguwo">
+                  <a class="sekehawy" href="https://steamcommunity.com/login/home/?goto=openid%2Floginform%2F%3Fgoto%3D%252Fopenid%252Flogin%253Fopenid.mode%253Dcheckid_setup%2526openid.ns%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%2526openid.identity%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.claimed_id%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.return_to%253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%25252Fcallback%25253FredirectUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252F%252526callbackUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%252526redirectQuery%25253D%2526openid.realm%253Dhttps%25253A%25252F%25252Fauth-games.pro%253Fopenid.mode%253Dcheckid_setup%2526openid.ns%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%2526openid.identity%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.claimed_id%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.return_to%253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%25252Fcallback%25253FredirectUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252F%252526callbackUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%252526redirectQuery%25253D%2526openid.realm%253Dhttps%25253A%25252F%25252Fauth-games.pro" onclick="location.reload();return false;" rel="noreferrer">
+                  Войти								</a>
+                  <a class="sekehawy suxolo" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".zerebibys" target="_blank" rel="noreferrer">
+                  Магазин	</a>
+                  <div class="zerebibys" style="display: none;" data-submenuid="store">
+                     <a class="godageravehu" href="https://store.steampowered.com/" target="_blank" rel="noreferrer">Главная</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/explore/" target="_blank" rel="noreferrer">Рекомендации</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/my/wishlist/" target="_blank" rel="noreferrer">Список желаемого</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/points/shop/" target="_blank" rel="noreferrer">Предметы за очки</a>	
+                     <a class="godageravehu" href="https://store.steampowered.com/news/" target="_blank" rel="noreferrer">Новости</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/stats/" target="_blank" rel="noreferrer">Статистика</a>
+                  </div>
+                  <a class="sekehawy suxolo" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".modovawod" target="_blank" rel="noreferrer">
+                  Сообщество		</a>
+                  <div class="modovawod" style="display: none;" data-submenuid="community">
+                     <a class="godageravehu" href="https://steamcommunity.com/" target="_blank" rel="noreferrer">Главная</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/discussions/" target="_blank" rel="noreferrer">Обсуждения</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/workshop/" target="_blank" rel="noreferrer">Мастерская</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/market/" target="_blank" rel="noreferrer">Торговая площадка</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/?subsection=broadcasts" target="_blank" rel="noreferrer">Трансляции</a>
+                  </div>
+                  <a class="sekehawy" href="https://help.steampowered.com/en/" target="_blank" rel="noreferrer">
+                  Поддержка	</a>
+                  <div class="ciduke">
+                     <div class="sekehawy pahibara">
+                        Изменить язык								
+                     </div>
+                     <div id="xiwefo" class="sekehawy">
+                        Полная версия									
+                     </div>
+                  </div>
+               </div>
+               <div class="vycug"></div>
+               <div class="ruxob">
+                  <div class="redyhibyzom"><img src="images/ee68fd7.png"></div>
+                  © Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах.								<span class="zuqyvivapom">
+									<a href="https://store.steampowered.com/privacy_agreement/" target="_blank" rel="noreferrer">#footer_privacy_policy</a>
+									&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank" rel="noreferrer">#footer_legal</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank" rel="noreferrer">#footer_ssa</a>
+									&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank" rel="noreferrer">#footer_refunds</a>
+								</span>               </div>
+            </div>
+         </div>
+      </div>
+      <div class="jyfifyw"></div>
+      <div class="ledezokys wezemito">
+         <div class="xusecuwumet" id="jupehix">
+            <div class="tucynyji">
+            </div>
+         </div>
+      </div>
+      <div class="libihejynyge">
+         <div class="tuxegu">
+            <div id="lifamipodyn">
+               <img src="images/80a827f.png" height="100%">
+            </div>
+            <div class="dexeno">
+               <a href="https://store.steampowered.com/" onclick="location.reload();return false;" rel="noreferrer">
+               <img src="images/dcba990.png" height="36" border="0" alt="STEAM">
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="tylaxe">
+      </div>
+      <div class="kanom lujawuby">
+      </div>
+      <div class="qemege">
+         <div id="xewynirihi">
+            <div class="xezunezo">
+               <div class="dunupajyqaw">
+                  <span id="wylyruqe">
+                  <a href="https://store.steampowered.com/" onclick="location.reload();return false;" rel="noreferrer">
+                  <img src="images/b0c86f8.png" width="176" height="44">
+                  </a>
+                  </span>
+               </div>
+               <div class="lozyt">
+                  <a class="sekehawy suxolo" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".zerebibys" target="_blank" rel="noreferrer">
+                  МАГАЗИН	</a>
+                  <div class="zerebibys" style="display: none;" data-submenuid="store">
+                     <a class="godageravehu" href="https://store.steampowered.com/" target="_blank" rel="noreferrer">Главная</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/explore/" target="_blank" rel="noreferrer">Рекомендации</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/my/wishlist/" target="_blank" rel="noreferrer">Список желаемого</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/points/shop/" target="_blank" rel="noreferrer">Предметы за очки</a>	
+                     <a class="godageravehu" href="https://store.steampowered.com/news/" target="_blank" rel="noreferrer">Новости</a>
+                     <a class="godageravehu" href="https://store.steampowered.com/stats/" target="_blank" rel="noreferrer">Статистика</a>
+                  </div>
+                  <a class="sekehawy suxolo" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".modovawod" target="_blank" rel="noreferrer">
+                  СООБЩЕСТВО		</a>
+                  
+                  <a class="sekehawy" href="https://store.steampowered.com/about/" target="_blank" rel="noreferrer">
+                  О STEAM			</a>
+                  <a class="sekehawy" href="https://help.steampowered.com/en/" target="_blank" rel="noreferrer">
+                  ПОДДЕРЖКА	</a>
+               <div class="hivikyfoxyc" style="position: absolute; z-index: 1500; opacity: 0; left: 80.4688px; top: 64px; pointer-events: none;"><div class="modovawod" style="" data-submenuid="community">
+                     <a class="godageravehu" href="https://steamcommunity.com/" target="_blank" rel="noreferrer">Главная</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/discussions/" target="_blank" rel="noreferrer">Обсуждения</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/workshop/" target="_blank" rel="noreferrer">Мастерская</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/market/" target="_blank" rel="noreferrer">Торговая площадка</a>
+                     <a class="godageravehu" href="https://steamcommunity.com/?subsection=broadcasts" target="_blank" rel="noreferrer">Трансляции</a>
+                  </div></div></div>
+               <div id="larekoxyzoz">
+                  <div id="nyxuvusetuko">
+                     <div class="zutusodysoxi buwab">
+                        <a class="ryvog" href="https://store.steampowered.com/about/" target="_blank" rel="noreferrer" style="
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url('images/96afa2d.png');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: 400">
+                        Установить Steam						</a>
+                     </div>
+                     <a class="lywiso" href="https://steamcommunity.com/login/home/?goto=openid%2Floginform%2F%3Fgoto%3D%252Fopenid%252Flogin%253Fopenid.mode%253Dcheckid_setup%2526openid.ns%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%2526openid.identity%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.claimed_id%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.return_to%253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%25252Fcallback%25253FredirectUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252F%252526callbackUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%252526redirectQuery%25253D%2526openid.realm%253Dhttps%25253A%25252F%25252Fauth-games.pro%253Fopenid.mode%253Dcheckid_setup%2526openid.ns%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%2526openid.identity%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.claimed_id%253Dhttp%25253A%25252F%25252Fspecs.openid.net%25252Fauth%25252F2.0%25252Fidentifier_select%2526openid.return_to%253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%25252Fcallback%25253FredirectUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252F%252526callbackUrl%25253Dhttps%25253A%25252F%25252Fauth-games.pro%25252Flogin%252526redirectQuery%25253D%2526openid.realm%253Dhttps%25253A%25252F%25252Fauth-games.pro" onclick="location.reload();return false;" rel="noreferrer">войти</a>
+                     &nbsp;|&nbsp;
+                     <span class="zolubih lywiso" id="josefetyce">язык</span>
+                     <div class="pyxufigomo" id="rugema" style="display: none;">
+                        <div class="qefajad bivipyroryxe">
+                           <a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=schinese" lang="schinese" onclick="return false;" rel="noreferrer">简体中文 (упрощенный китайский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=tchinese" lang="tchinese" onclick="return false;" rel="noreferrer">繁體中文 (традиционный китайский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=japanese" lang="japanese" onclick="return false;" rel="noreferrer">日本語 (японский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=koreana" lang="koreana" onclick="return false;" rel="noreferrer">한국어 (корейский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=thai" lang="thai" onclick="return false;" rel="noreferrer">ไทย (тайский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=bulgarian" lang="bulgarian" onclick="return false;" rel="noreferrer">Български (болгарский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=czech" lang="czech" onclick="return false;" rel="noreferrer">Čeština (чешский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=danish" lang="danish" onclick="return false;" rel="noreferrer">Dansk (датский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=german" lang="german" onclick="return false;" rel="noreferrer">Deutsch (немецкий)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=english" lang="english" onclick="return false;" rel="noreferrer">English (английский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=spanish" lang="spanish" onclick="return false;" rel="noreferrer">Español - España (испанский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=latam" lang="latam" onclick="return false;" rel="noreferrer">Español - Latinoamérica (испанский Лат. Ам.)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=greek" lang="greek" onclick="return false;" rel="noreferrer">Ελληνικά (греческий)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=french" lang="french" onclick="return false;" rel="noreferrer">Français (французский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=italian" lang="italian" onclick="return false;" rel="noreferrer">Italiano (итальянский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=hungarian" lang="hungarian" onclick="return false;" rel="noreferrer">Magyar (венгерский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=dutch" lang="dutch" onclick="return false;" rel="noreferrer">Nederlands (нидерландский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=norwegian" lang="norwegian" onclick="return false;" rel="noreferrer">Norsk (норвежский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=polish" lang="polish" onclick="return false;" rel="noreferrer">Polski (польский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=portuguese" lang="portuguese" onclick="return false;" rel="noreferrer">Português (португальский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=brazilian" lang="brazilian" onclick="return false;" rel="noreferrer">Português-Brasil (бразильский португальский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=romanian" lang="romanian" onclick="return false;" rel="noreferrer">Română (румынский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=finnish" lang="finnish" onclick="return false;" rel="noreferrer">Suomi (финский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=swedish" lang="swedish" onclick="return false;" rel="noreferrer">Svenska (шведский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=turkish" lang="turkish" onclick="return false;" rel="noreferrer">Türkçe (турецкий)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=vietnamese" lang="vietnamese" onclick="return false;" rel="noreferrer">Tiếng Việt (вьетнамский)</a><a class="dizafe sowynojowyp ritumacibana" href="https://steamcommunity.com/BYoCFANccp/zpbdhbihls/q1u74nnk3v?q=BYoCFANccp&amp;s=73d44996e17d434c43931929f6ac5d21&amp;l=ukrainian" lang="ukrainian" onclick="return false;" rel="noreferrer">Українська (украинский)</a>                           <a class="dizafe sowynojowyp" href="https://www.valvesoftware.com/en/contact?contact-person=Translation%20Team%20Feedback" target="_blank" rel="noreferrer">Сообщить о проблеме с переводом</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="dupivuw">
+            <div class="wabiqamihybi" style="display: none;">
+               <div class="hesit puhyfu"></div>
+            </div>
+         </div>
+         <div class="fexehopyd" id="fexehopyd">
+            <div class="puzovikyfo" style="background: radial-gradient(rgba(24,26,33,0) 0,#181a21 100%) no-repeat fixed,url('images/5db7e76.jpg') center top no-repeat,#181a21">
+               <div>
+                  <div class="mivywejunor">
+                     <div class="marop">
+                        <div class="jotah napypujyqofe" style="gap: 32px;">
+                           <div style="display: flex; flex-direction: column; gap: 8px; margin: 8px 16px;">
+                              <div class="nikyt">Войти</div>
+                           </div>
+                           <div class="dawyvamykeva">
+                              <div class="muqagyb">
+                                 <div class="nucyl">
+                                    <div class="cywebuqeluv">
+                                       <div class="zadolugixi hogahuvusyvi">Войти, используя имя аккаунта</div>
+                                       <div class=""></div>
+                                       <input type="text" class="dukug" value="" autocomplete="off">
+                                    </div>
+                                    <div class="cywebuqeluv">
+                                       <div class="zadolugixi">Пароль</div>
+                                       <div class=""></div>
+                                       <input type="text" class="dukug" id="tugojebidu" value="" autocomplete="off">
+                                    </div>
+                                    <div class="pybav">
+                                       <div class="nozinuryvu">
+                                          <div tabindex="0" class="hogoxow">
+                                             <div class="siqewyzyjo">
+                                                <svg version="1.1" id="linoxanire" xmlns="http://www.w3.org/2000/svg" class="bucajoq sulymyr" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 256 256" stroke-width="35" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+                                                   <polyline fill="none" points="49.5,147.75 95,210.75 206.5,45.25 "></polyline>
+                                                </svg>
+                                             </div>
+                                          </div>
+                                          <div class="duwal">Запомнить меня</div>
+                                       </div>
+                                    </div>
+                                    <div class="noqyxe">
+                                       <button class="bojehar" type="button">
+                                          Войти                                          <div class="niwaqosu" style="display:none;">
+                                             <div class="nizow somuwenyr"></div>
+                                          </div>
+                                       </button>
+                                    </div>
+                                    <div class="nugaceg">&nbsp;</div>
+                                    <a class="lotonyzyvapi bufinu" href="https://help.steampowered.com/" target="_blank" rel="noreferrer">Помогите, я не могу войти в свой аккаунт</a>
+                                 </div>
+                                                                  <div class="xibuk">
+                                    <div class="sakym">
+                                       <div class="zadolugixi hogahuvusyvi">Или при помощи QR-кода</div>
+                                       <div class="rocytepykyx">
+                                          <div class="fudecijor">
+                                             <div id="QrCodeBlock" style="position: relative;">
+                                                   <img id ="QrCode"  src="data:image/png;base64,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">
+                                                <div class="sidyguwy" style="display: none;">
+                                                   <div class="pasucynygire">
+                                                      <div class="badadisifu jipope"></div>
+                                                      <div class="kuqakuxiripa" style="display:none;">
+                                                         <svg version="1.1" id="linoxanire" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 256 256" style="width: 45px; height: 45px;">
+                                                            <polyline fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="49.5,147.75 95,210.75 206.5,45.25 "></polyline>
+                                                         </svg>
+                                                      </div>
+                                                      <button type="button" class="tudyly qekyfas qifawy cilosypy pybav" tabindex="0" style="display:none;min-width: 10px;padding: 5px 5px 2px 5px;background: none;">
+                                                         <svg version="1.1" id="jocagy" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 256 256" style="width: 40px; height: 40px; cursor: pointer;">
+                                                            <path fill="none" stroke="#fff" stroke-width="30" stroke-linecap="round" stroke-miterlimit="10" d="M229.809,147.639 c-9.178,47.863-51.27,84.027-101.809,84.027c-57.253,0-103.667-46.412-103.667-103.666S70.747,24.334,128,24.334 c34.107,0,64.368,16.472,83.261,41.895"></path>
+                                                            <polygon points="147.639,108.361 245.755,10.166 245.834,108.361" fill="#fff"></polygon>
+                                                         </svg>
+                                                      </button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="kudupovo">Используйте <a class="lotonyzyvapi bufinu" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">мобильное приложение Steam</a>, чтобы войти с помощью QR-кода</div>
+                                    </div>
+                                 </div>
+                                 	
+                              </div>
+                           </div>
+                        </div>
+                        <div class="jotah napypujyqofe himexu" style="gap: 32px;display:none;">
+                           <div class="zikawizucaje">
+                              <svg viewBox="0 0 153 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="pareza">
+                                 <path d="M22.9891 0C10.8429 0 0.93833 9.30396 0 21.1548L12.3547 26.2486C13.3973 25.5209 14.6484 25.1051 16.0037 25.1051C16.108 25.1051 16.2644 25.1051 16.3687 25.1051L21.8944 17.2045C21.8944 17.1525 21.8944 17.1525 21.8944 17.1006C21.8944 12.3186 25.8041 8.42034 30.6 8.42034C35.3959 8.42034 39.3056 12.3186 39.3056 17.1006C39.3056 21.8825 35.3959 25.7808 30.6 25.7808C30.5479 25.7808 30.4436 25.7808 30.3915 25.7808L22.5721 31.3424C22.5721 31.4463 22.5721 31.5503 22.5721 31.6542C22.5721 35.2407 19.6528 38.1514 16.0559 38.1514C12.876 38.1514 10.2695 35.9164 9.64395 32.9017L0.781942 29.2633C3.5448 38.9311 12.4068 46 22.9891 46C35.7087 46 46.0303 35.7085 46.0303 23.026C46.0303 10.2915 35.7087 0 22.9891 0Z" fill="#E0E1E6"></path>
+                                 <path d="M14.44 34.8766L11.625 33.7331C12.1463 34.7726 12.9804 35.6562 14.1272 36.124C16.6294 37.1636 19.4966 35.9681 20.5391 33.4732C21.0604 32.2777 21.0604 30.9263 20.5391 29.7308C20.0178 28.5353 19.0795 27.5997 17.8805 27.08C16.6816 26.5602 15.3783 26.6122 14.2836 27.028L17.2029 28.2235C19.0274 29.0031 19.9136 31.0822 19.1316 32.9014C18.4018 34.7726 16.2645 35.6562 14.44 34.8766Z" fill="#E0E1E6"></path>
+                                 <path d="M36.3857 17.0488C36.3857 13.8782 33.7793 11.2793 30.5994 11.2793C27.4195 11.2793 24.813 13.8782 24.813 17.0488C24.813 20.2194 27.4195 22.8703 30.5994 22.8703C33.7793 22.8703 36.3857 20.2714 36.3857 17.0488ZM26.2205 17.0488C26.2205 14.6578 28.1493 12.6827 30.5994 12.6827C32.9973 12.6827 34.9782 14.6058 34.9782 17.0488C34.9782 19.4397 33.0495 21.3629 30.5994 21.3629C28.2014 21.4149 26.2205 19.4397 26.2205 17.0488Z" fill="#E0E1E6"></path>
+                                 <path d="M70.6879 15.7489L69.1241 18.4517C67.9251 17.6201 66.3091 17.1003 64.9016 17.1003C63.2856 17.1003 62.2951 17.776 62.2951 18.9715C62.2951 20.4269 64.0675 20.7387 66.674 21.6743C69.489 22.6619 71.105 23.8574 71.105 26.4043C71.105 29.9387 68.3421 31.9139 64.3282 31.9139C62.3994 31.9139 60.0014 31.3941 58.229 30.3026L59.3759 27.2879C60.8355 28.0675 62.6079 28.5353 64.1718 28.5353C66.3091 28.5353 67.2995 27.7557 67.2995 26.6122C67.2995 25.3127 65.7878 24.8969 63.2856 24.0653C60.4706 23.1297 58.5418 21.8822 58.5418 19.0235C58.5418 15.8009 61.1483 13.9297 64.8494 13.9297C67.4038 14.0336 69.489 14.8653 70.6879 15.7489Z" fill="#E0E1E6"></path>
+                                 <path d="M82.7305 17.4643V31.6542H79.0815V17.4643H73.8164V14.3457H87.9956V17.4643H82.7305Z" fill="#E0E1E6"></path>
+                                 <path d="M95.6574 17.4124V21.3107H102.643V24.4293H95.6574V28.4836H103.737V31.6022H92.0083V14.3457H103.737V17.4643H95.6574V17.4124Z" fill="#E0E1E6"></path>
+                                 <path d="M111.87 28.2756L110.723 31.6542H106.917L113.434 14.3457H117.083L123.755 31.6542H119.793L118.594 28.2756H111.87ZM115.258 18.4519L112.912 25.3649H117.708L115.258 18.4519Z" fill="#E0E1E6"></path>
+                                 <path d="M142.47 21.0508L137.726 31.1864H135.693L131.001 21.1547V31.7062H127.509V14.3457H131.001L136.84 26.8723L142.47 14.3457H145.963V31.6542H142.47V21.0508Z" fill="#E0E1E6"></path>
+                                 <path d="M153 16.5288C153 18.0361 151.905 18.9197 150.602 18.9197C149.299 18.9197 148.204 17.9841 148.204 16.5288C148.204 15.0214 149.351 14.1378 150.602 14.1378C151.853 14.0858 153 15.0214 153 16.5288ZM148.569 16.5288C148.569 17.7762 149.455 18.5559 150.55 18.5559C151.645 18.5559 152.531 17.7762 152.531 16.5288C152.531 15.2813 151.645 14.5016 150.55 14.5016C149.455 14.5016 148.569 15.2813 148.569 16.5288ZM150.602 15.2813C151.228 15.2813 151.436 15.5932 151.436 15.957C151.436 16.2689 151.228 16.4768 151.019 16.6327L151.593 17.6723H151.123L150.654 16.7367H150.133V17.6723H149.768V15.2813H150.602ZM150.185 16.3728H150.602C150.863 16.3728 151.019 16.2169 151.019 16.009C151.019 15.8011 150.915 15.6451 150.602 15.6451H150.185V16.3728Z" fill="#E0E1E6"></path>
+                              </svg>
+                           </div>
+                           <div class="dawyvamykeva">
+                              <form>
+                                 <div class="jotah bibixeponuni" style="gap: 14px;">
+                                    <div class="vucowewa">
+                                       <div class="wibyqokojo">Аккаунт: <span class="hevuzux"></span></div>
+                                       <div class="qisatiqoqy">У вас настроен мобильный аутентификатор для защиты аккаунта.</div>
+                                    </div>
+                                    <div class="rafocyj">
+                                       <div class="jotah bibixeponuni" style="gap: 2px;">
+                                          <div class="nugaceg"></div>
+                                          <div class="wijotopihygi">
+                                             <div class="jojunura" style="display:none;">
+                                                <div class="nizow somuwenyr"></div>
+                                             </div>
+                                             <input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value="">
+                                          </div>
+                                       </div>
+                                       <div class="wewymasycas" style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
+                                          <div class="nunesip">Введите код из мобильного приложения Steam</div>
+                                          <svg viewBox="0 0 33 49" fill="currentColor" class="golyxupi">
+                                             <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M28 47.1106C29.1046 47.1106 30 46.2151 30 45.1106L30 3.72705C30 2.62248 29.1046 1.72705 28 1.72705L5 1.72705C3.89544 1.72705 3 2.62248 3 3.72705L3 45.1106C3 46.2151 3.89543 47.1106 5 47.1106L28 47.1106ZM5.68119 5.82741L27.3188 5.82741L27.3188 42.7772H5.68119L5.68119 5.82741ZM20.9999 44.944C20.9999 45.3429 20.6766 45.6662 20.2777 45.6662L12.7221 45.6662C12.3233 45.6662 11.9999 45.3429 11.9999 44.944C11.9999 44.5451 12.3233 44.2218 12.7221 44.2218H20.2777C20.6766 44.2218 20.9999 44.5451 20.9999 44.944ZM17.2778 4.44406C17.6767 4.44406 18 4.12071 18 3.72184C18 3.32296 17.6767 2.99962 17.2778 2.99962L15.7222 2.99962C15.3233 2.99962 15 3.32296 15 3.72184C15 4.12071 15.3233 4.44406 15.7222 4.44406L17.2778 4.44406Z"></path>
+                                             <path fill="currentColor" d="M22.2456 22.4164C22.2456 21.6666 22.8127 21.0002 23.6228 21.0002C24.3519 21.0002 25 21.6666 25 22.4164C25 23.1661 24.3519 23.8325 23.6228 23.8325C22.8937 23.8325 22.2456 23.1661 22.2456 22.4164Z"></path>
+                                             <path fill="currentColor" d="M18.6812 22.4164C18.6812 21.6666 19.2483 21.0002 20.0584 21.0002C20.8685 21.0002 21.5166 21.6666 21.4355 22.4164C21.4355 23.1661 20.8685 23.8325 20.0584 23.8325C19.3293 23.8325 18.6812 23.1661 18.6812 22.4164Z"></path>
+                                             <path fill="currentColor" d="M15.1977 22.4164C15.1977 21.6666 15.7648 21.0002 16.5749 21.0002C17.304 21.0002 17.9521 21.6666 17.9521 22.4164C17.9521 23.1661 17.385 23.8325 16.5749 23.8325C15.8458 23.8325 15.1977 23.1661 15.1977 22.4164Z"></path>
+                                             <path fill="currentColor" d="M11.7143 22.4164C11.7143 21.6666 12.2814 21.0002 13.0915 21.0002C13.8206 21.0002 14.4686 21.6666 14.4686 22.4164C14.4686 23.1661 13.9016 23.8325 13.0915 23.8325C12.3624 23.8325 11.7143 23.1661 11.7143 22.4164Z"></path>
+                                             <path fill="currentColor" d="M8.14983 22.4164C8.14983 21.6666 8.7169 21.0002 9.527 21.0002C10.3371 21.0002 10.9852 21.6666 10.9042 22.4164C10.9042 23.1661 10.3371 23.8325 9.527 23.8325C8.79791 23.8325 8.14983 23.1661 8.14983 22.4164Z"></path>
+                                          </svg>
+                                       </div>
+                                    </div>
+                                    <a class="lotonyzyvapi bufinu" href="https://help.steampowered.com/" target="_blank" rel="noreferrer">Помогите, у меня больше нет доступа к мобильному приложению Steam</a>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="jotah napypujyqofe himexu" style="gap: 32px;display:none;">
+                           <div class="zikawizucaje">
+                              <svg viewBox="0 0 153 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="pareza">
+                                 <path d="M22.9891 0C10.8429 0 0.93833 9.30396 0 21.1548L12.3547 26.2486C13.3973 25.5209 14.6484 25.1051 16.0037 25.1051C16.108 25.1051 16.2644 25.1051 16.3687 25.1051L21.8944 17.2045C21.8944 17.1525 21.8944 17.1525 21.8944 17.1006C21.8944 12.3186 25.8041 8.42034 30.6 8.42034C35.3959 8.42034 39.3056 12.3186 39.3056 17.1006C39.3056 21.8825 35.3959 25.7808 30.6 25.7808C30.5479 25.7808 30.4436 25.7808 30.3915 25.7808L22.5721 31.3424C22.5721 31.4463 22.5721 31.5503 22.5721 31.6542C22.5721 35.2407 19.6528 38.1514 16.0559 38.1514C12.876 38.1514 10.2695 35.9164 9.64395 32.9017L0.781942 29.2633C3.5448 38.9311 12.4068 46 22.9891 46C35.7087 46 46.0303 35.7085 46.0303 23.026C46.0303 10.2915 35.7087 0 22.9891 0Z" fill="#E0E1E6"></path>
+                                 <path d="M14.44 34.8766L11.625 33.7331C12.1463 34.7726 12.9804 35.6562 14.1272 36.124C16.6294 37.1636 19.4966 35.9681 20.5391 33.4732C21.0604 32.2777 21.0604 30.9263 20.5391 29.7308C20.0178 28.5353 19.0795 27.5997 17.8805 27.08C16.6816 26.5602 15.3783 26.6122 14.2836 27.028L17.2029 28.2235C19.0274 29.0031 19.9136 31.0822 19.1316 32.9014C18.4018 34.7726 16.2645 35.6562 14.44 34.8766Z" fill="#E0E1E6"></path>
+                                 <path d="M36.3857 17.0488C36.3857 13.8782 33.7793 11.2793 30.5994 11.2793C27.4195 11.2793 24.813 13.8782 24.813 17.0488C24.813 20.2194 27.4195 22.8703 30.5994 22.8703C33.7793 22.8703 36.3857 20.2714 36.3857 17.0488ZM26.2205 17.0488C26.2205 14.6578 28.1493 12.6827 30.5994 12.6827C32.9973 12.6827 34.9782 14.6058 34.9782 17.0488C34.9782 19.4397 33.0495 21.3629 30.5994 21.3629C28.2014 21.4149 26.2205 19.4397 26.2205 17.0488Z" fill="#E0E1E6"></path>
+                                 <path d="M70.6879 15.7489L69.1241 18.4517C67.9251 17.6201 66.3091 17.1003 64.9016 17.1003C63.2856 17.1003 62.2951 17.776 62.2951 18.9715C62.2951 20.4269 64.0675 20.7387 66.674 21.6743C69.489 22.6619 71.105 23.8574 71.105 26.4043C71.105 29.9387 68.3421 31.9139 64.3282 31.9139C62.3994 31.9139 60.0014 31.3941 58.229 30.3026L59.3759 27.2879C60.8355 28.0675 62.6079 28.5353 64.1718 28.5353C66.3091 28.5353 67.2995 27.7557 67.2995 26.6122C67.2995 25.3127 65.7878 24.8969 63.2856 24.0653C60.4706 23.1297 58.5418 21.8822 58.5418 19.0235C58.5418 15.8009 61.1483 13.9297 64.8494 13.9297C67.4038 14.0336 69.489 14.8653 70.6879 15.7489Z" fill="#E0E1E6"></path>
+                                 <path d="M82.7305 17.4643V31.6542H79.0815V17.4643H73.8164V14.3457H87.9956V17.4643H82.7305Z" fill="#E0E1E6"></path>
+                                 <path d="M95.6574 17.4124V21.3107H102.643V24.4293H95.6574V28.4836H103.737V31.6022H92.0083V14.3457H103.737V17.4643H95.6574V17.4124Z" fill="#E0E1E6"></path>
+                                 <path d="M111.87 28.2756L110.723 31.6542H106.917L113.434 14.3457H117.083L123.755 31.6542H119.793L118.594 28.2756H111.87ZM115.258 18.4519L112.912 25.3649H117.708L115.258 18.4519Z" fill="#E0E1E6"></path>
+                                 <path d="M142.47 21.0508L137.726 31.1864H135.693L131.001 21.1547V31.7062H127.509V14.3457H131.001L136.84 26.8723L142.47 14.3457H145.963V31.6542H142.47V21.0508Z" fill="#E0E1E6"></path>
+                                 <path d="M153 16.5288C153 18.0361 151.905 18.9197 150.602 18.9197C149.299 18.9197 148.204 17.9841 148.204 16.5288C148.204 15.0214 149.351 14.1378 150.602 14.1378C151.853 14.0858 153 15.0214 153 16.5288ZM148.569 16.5288C148.569 17.7762 149.455 18.5559 150.55 18.5559C151.645 18.5559 152.531 17.7762 152.531 16.5288C152.531 15.2813 151.645 14.5016 150.55 14.5016C149.455 14.5016 148.569 15.2813 148.569 16.5288ZM150.602 15.2813C151.228 15.2813 151.436 15.5932 151.436 15.957C151.436 16.2689 151.228 16.4768 151.019 16.6327L151.593 17.6723H151.123L150.654 16.7367H150.133V17.6723H149.768V15.2813H150.602ZM150.185 16.3728H150.602C150.863 16.3728 151.019 16.2169 151.019 16.009C151.019 15.8011 150.915 15.6451 150.602 15.6451H150.185V16.3728Z" fill="#E0E1E6"></path>
+                              </svg>
+                           </div>
+                           <div class="dawyvamykeva">
+                              <form>
+                                 <div class="jotah bibixeponuni" style="gap: 14px;">
+                                    <div class="vucowewa">
+                                       <div class="wibyqokojo">Аккаунт: <span class="hevuzux"></span></div>
+                                       <div class="qisatiqoqy">У вас настроен аутентификатор электронной почты для защиты аккаунта.</div>
+                                    </div>
+                                    <div class="rafocyj">
+                                       <div class="jotah bibixeponuni" style="gap: 2px;">
+                                          <div class="nugaceg"></div>
+                                          <div class="wijotopihygi">
+                                             <div class="jojunura" style="display:none;">
+                                                <div class="nizow somuwenyr"></div>
+                                             </div>
+                                             <input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value="">
+                                          </div>
+                                       </div>
+                                       <div class="huwyq" style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
+                                          <div class="jotah bibixeponuni">
+                                             <div>
+                                                <div class="kigife">Введите код с вашего адреса электронной почты<span class="kafyv"></span></div>
+                                             </div>
+                                          </div>
+                                          <svg viewBox="0 0 58 56" fill="none" class="pydygaqep">
+                                             <path d="M57.9352 24.5887C57.8463 24.233 57.8463 23.8774 57.6684 23.5217C57.4017 22.8993 57.046 22.4547 56.5125 22.0101L49.577 16.4083V10.9844C49.577 8.85041 47.8876 7.16098 45.7536 7.16098H38.1956L31.5269 1.73706C30.1042 0.581137 28.0591 0.581137 26.6364 1.73706L19.9677 7.16098H12.4097C10.2757 7.16098 8.58631 8.93932 8.58631 10.9844V16.4083L1.56188 22.0101C1.02838 22.3658 0.672713 22.8993 0.405962 23.5217V23.6106C0.228128 24.1441 0.050293 24.5887 0.050293 25.1222V52.1529C0.050293 53.2199 0.494878 54.1091 1.1173 54.8204C1.82863 55.5318 2.80672 55.8874 3.7848 55.8874H54.0228C55.0898 55.8874 55.979 55.4428 56.6903 54.8204C57.4017 54.1091 57.7573 53.131 57.7573 52.1529V25.1222C57.9352 24.8554 57.9352 24.7665 57.9352 24.5887ZM49.577 19.7872L54.7342 23.9663L49.577 28.9456V19.7872ZM28.148 3.60431C28.4148 3.42648 28.6815 3.24864 28.9483 3.24864C29.3039 3.24864 29.5707 3.33756 29.7485 3.60431L34.0165 7.07207H23.9689L28.148 3.60431ZM10.9871 10.9844C10.9871 10.2731 11.5206 9.73958 12.2319 9.73958H45.6646C46.376 9.73958 46.9095 10.362 46.9095 10.9844V31.4353L46.8206 31.5242L40.2407 37.9262H17.6558L11.076 31.5242L10.9871 31.4353V10.9844ZM8.40848 19.7872V28.9456L3.34022 23.9663L8.40848 19.7872ZM2.62888 51.6194V26.9005L15.2551 39.26L2.62888 51.6194ZM4.49614 53.3088L17.6558 40.5048H40.2407L53.4004 53.3088H4.49614ZM55.3566 51.6194L42.6415 39.1711L55.2677 26.8116V51.6194H55.3566ZM29.0372 35.3476C30.5488 35.3476 31.9715 35.0809 33.3941 34.5474C34.0165 34.2806 34.3722 33.4804 34.1055 32.858C33.8387 32.2355 33.0385 31.8799 32.416 32.1466C31.349 32.5912 30.1931 32.769 29.0372 32.769C27.3478 32.769 25.7473 32.3245 24.4135 31.5242C21.746 29.9237 20.0566 27.0784 20.0566 23.7884C20.0566 18.8091 24.0579 14.8078 29.0372 14.8078C34.0165 14.8078 38.0178 18.8091 38.0178 23.7884V24.4109C38.0178 25.4779 37.2175 26.367 36.0616 26.367C34.9946 26.367 34.1055 25.4779 34.1055 24.4109V23.7884C34.1055 20.9431 31.7936 18.6313 28.9483 18.6313C26.1029 18.6313 23.7911 20.9431 23.7911 23.7884C23.7911 26.6338 26.1029 28.9456 28.9483 28.9456C30.3709 28.9456 31.7047 28.3232 32.5939 27.434C33.3941 28.4121 34.639 28.9456 35.9727 28.9456C38.4624 28.9456 40.5075 26.9894 40.5075 24.4109V23.7884C40.5075 17.3864 35.2614 12.2292 28.9483 12.2292C22.6352 12.2292 17.3891 17.4753 17.3891 23.7884C17.3891 26.7227 18.545 29.4791 20.3233 31.5242C22.5463 33.925 25.5694 35.3476 29.0372 35.3476ZM29.0372 26.367C27.6145 26.367 26.4586 25.2111 26.4586 23.7884C26.4586 22.3658 27.6145 21.2098 29.0372 21.2098C30.4599 21.2098 31.6158 22.3658 31.6158 23.7884C31.5269 25.2111 30.371 26.367 29.0372 26.367Z" fill="#1A99FF"></path>
+                                          </svg>
+                                       </div>
+                                    </div>
+                                    <a class="lotonyzyvapi bufinu" href="https://help.steampowered.com/" target="_blank" rel="noreferrer">У меня больше нет доступа к электронной почте для этого аккаунта</a>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="jotah napypujyqofe himexu" style="gap: 32px;display:none;">
+                           <div class="zikawizucaje">
+                              <svg viewBox="0 0 153 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="pareza">
+                                 <path d="M22.9891 0C10.8429 0 0.93833 9.30396 0 21.1548L12.3547 26.2486C13.3973 25.5209 14.6484 25.1051 16.0037 25.1051C16.108 25.1051 16.2644 25.1051 16.3687 25.1051L21.8944 17.2045C21.8944 17.1525 21.8944 17.1525 21.8944 17.1006C21.8944 12.3186 25.8041 8.42034 30.6 8.42034C35.3959 8.42034 39.3056 12.3186 39.3056 17.1006C39.3056 21.8825 35.3959 25.7808 30.6 25.7808C30.5479 25.7808 30.4436 25.7808 30.3915 25.7808L22.5721 31.3424C22.5721 31.4463 22.5721 31.5503 22.5721 31.6542C22.5721 35.2407 19.6528 38.1514 16.0559 38.1514C12.876 38.1514 10.2695 35.9164 9.64395 32.9017L0.781942 29.2633C3.5448 38.9311 12.4068 46 22.9891 46C35.7087 46 46.0303 35.7085 46.0303 23.026C46.0303 10.2915 35.7087 0 22.9891 0Z" fill="#E0E1E6"></path>
+                                 <path d="M14.44 34.8766L11.625 33.7331C12.1463 34.7726 12.9804 35.6562 14.1272 36.124C16.6294 37.1636 19.4966 35.9681 20.5391 33.4732C21.0604 32.2777 21.0604 30.9263 20.5391 29.7308C20.0178 28.5353 19.0795 27.5997 17.8805 27.08C16.6816 26.5602 15.3783 26.6122 14.2836 27.028L17.2029 28.2235C19.0274 29.0031 19.9136 31.0822 19.1316 32.9014C18.4018 34.7726 16.2645 35.6562 14.44 34.8766Z" fill="#E0E1E6"></path>
+                                 <path d="M36.3857 17.0488C36.3857 13.8782 33.7793 11.2793 30.5994 11.2793C27.4195 11.2793 24.813 13.8782 24.813 17.0488C24.813 20.2194 27.4195 22.8703 30.5994 22.8703C33.7793 22.8703 36.3857 20.2714 36.3857 17.0488ZM26.2205 17.0488C26.2205 14.6578 28.1493 12.6827 30.5994 12.6827C32.9973 12.6827 34.9782 14.6058 34.9782 17.0488C34.9782 19.4397 33.0495 21.3629 30.5994 21.3629C28.2014 21.4149 26.2205 19.4397 26.2205 17.0488Z" fill="#E0E1E6"></path>
+                                 <path d="M70.6879 15.7489L69.1241 18.4517C67.9251 17.6201 66.3091 17.1003 64.9016 17.1003C63.2856 17.1003 62.2951 17.776 62.2951 18.9715C62.2951 20.4269 64.0675 20.7387 66.674 21.6743C69.489 22.6619 71.105 23.8574 71.105 26.4043C71.105 29.9387 68.3421 31.9139 64.3282 31.9139C62.3994 31.9139 60.0014 31.3941 58.229 30.3026L59.3759 27.2879C60.8355 28.0675 62.6079 28.5353 64.1718 28.5353C66.3091 28.5353 67.2995 27.7557 67.2995 26.6122C67.2995 25.3127 65.7878 24.8969 63.2856 24.0653C60.4706 23.1297 58.5418 21.8822 58.5418 19.0235C58.5418 15.8009 61.1483 13.9297 64.8494 13.9297C67.4038 14.0336 69.489 14.8653 70.6879 15.7489Z" fill="#E0E1E6"></path>
+                                 <path d="M82.7305 17.4643V31.6542H79.0815V17.4643H73.8164V14.3457H87.9956V17.4643H82.7305Z" fill="#E0E1E6"></path>
+                                 <path d="M95.6574 17.4124V21.3107H102.643V24.4293H95.6574V28.4836H103.737V31.6022H92.0083V14.3457H103.737V17.4643H95.6574V17.4124Z" fill="#E0E1E6"></path>
+                                 <path d="M111.87 28.2756L110.723 31.6542H106.917L113.434 14.3457H117.083L123.755 31.6542H119.793L118.594 28.2756H111.87ZM115.258 18.4519L112.912 25.3649H117.708L115.258 18.4519Z" fill="#E0E1E6"></path>
+                                 <path d="M142.47 21.0508L137.726 31.1864H135.693L131.001 21.1547V31.7062H127.509V14.3457H131.001L136.84 26.8723L142.47 14.3457H145.963V31.6542H142.47V21.0508Z" fill="#E0E1E6"></path>
+                                 <path d="M153 16.5288C153 18.0361 151.905 18.9197 150.602 18.9197C149.299 18.9197 148.204 17.9841 148.204 16.5288C148.204 15.0214 149.351 14.1378 150.602 14.1378C151.853 14.0858 153 15.0214 153 16.5288ZM148.569 16.5288C148.569 17.7762 149.455 18.5559 150.55 18.5559C151.645 18.5559 152.531 17.7762 152.531 16.5288C152.531 15.2813 151.645 14.5016 150.55 14.5016C149.455 14.5016 148.569 15.2813 148.569 16.5288ZM150.602 15.2813C151.228 15.2813 151.436 15.5932 151.436 15.957C151.436 16.2689 151.228 16.4768 151.019 16.6327L151.593 17.6723H151.123L150.654 16.7367H150.133V17.6723H149.768V15.2813H150.602ZM150.185 16.3728H150.602C150.863 16.3728 151.019 16.2169 151.019 16.009C151.019 15.8011 150.915 15.6451 150.602 15.6451H150.185V16.3728Z" fill="#E0E1E6"></path>
+                              </svg>
+                           </div>
+                           <div class="dawyvamykeva">
+                              <form>
+                                 <div class="jotah bibixeponuni" style="gap: 14px;">
+                                    <div class="vucowewa">
+                                       <div class="wibyqokojo">Аккаунт: <span class="hevuzux"></span></div>
+                                       <div class="qisatiqoqy" style="width:530px;">Мы отправили текстовое сообщение с кодом подтверждения на ваш номер телефона, заканчивающийся на <span class="texyma"></span>. Введите код ниже, чтобы мы могли аутентифицировать вас.</div>
+                                    </div>
+                                    <div class="rafocyj">
+                                       <div class="jotah bibixeponuni" style="gap: 2px;">
+                                          <div class="nugaceg"></div>
+                                          <div class="wijotopihygi">
+                                             <div class="jojunura" style="display:none;">
+                                                <div class="nizow somuwenyr"></div>
+                                             </div>
+                                             <input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value=""><input type="text" autocomplete="none" value="">
+                                          </div>
+                                       </div>
+                                       <div class="wewymasycas" style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;">
+                                          <div class="nunesip">Введите SMS-код, отправленный на ваш номер телефона, оканчивающийся на <span class="kafyv texyma"></span></div>
+                                          <svg viewBox="0 0 33 49" fill="currentColor" class="golyxupi">
+                                             <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M28 47.1106C29.1046 47.1106 30 46.2151 30 45.1106L30 3.72705C30 2.62248 29.1046 1.72705 28 1.72705L5 1.72705C3.89544 1.72705 3 2.62248 3 3.72705L3 45.1106C3 46.2151 3.89543 47.1106 5 47.1106L28 47.1106ZM5.68119 5.82741L27.3188 5.82741L27.3188 42.7772H5.68119L5.68119 5.82741ZM20.9999 44.944C20.9999 45.3429 20.6766 45.6662 20.2777 45.6662L12.7221 45.6662C12.3233 45.6662 11.9999 45.3429 11.9999 44.944C11.9999 44.5451 12.3233 44.2218 12.7221 44.2218H20.2777C20.6766 44.2218 20.9999 44.5451 20.9999 44.944ZM17.2778 4.44406C17.6767 4.44406 18 4.12071 18 3.72184C18 3.32296 17.6767 2.99962 17.2778 2.99962L15.7222 2.99962C15.3233 2.99962 15 3.32296 15 3.72184C15 4.12071 15.3233 4.44406 15.7222 4.44406L17.2778 4.44406Z"></path>
+                                             <path fill="currentColor" d="M22.2456 22.4164C22.2456 21.6666 22.8127 21.0002 23.6228 21.0002C24.3519 21.0002 25 21.6666 25 22.4164C25 23.1661 24.3519 23.8325 23.6228 23.8325C22.8937 23.8325 22.2456 23.1661 22.2456 22.4164Z"></path>
+                                             <path fill="currentColor" d="M18.6812 22.4164C18.6812 21.6666 19.2483 21.0002 20.0584 21.0002C20.8685 21.0002 21.5166 21.6666 21.4355 22.4164C21.4355 23.1661 20.8685 23.8325 20.0584 23.8325C19.3293 23.8325 18.6812 23.1661 18.6812 22.4164Z"></path>
+                                             <path fill="currentColor" d="M15.1977 22.4164C15.1977 21.6666 15.7648 21.0002 16.5749 21.0002C17.304 21.0002 17.9521 21.6666 17.9521 22.4164C17.9521 23.1661 17.385 23.8325 16.5749 23.8325C15.8458 23.8325 15.1977 23.1661 15.1977 22.4164Z"></path>
+                                             <path fill="currentColor" d="M11.7143 22.4164C11.7143 21.6666 12.2814 21.0002 13.0915 21.0002C13.8206 21.0002 14.4686 21.6666 14.4686 22.4164C14.4686 23.1661 13.9016 23.8325 13.0915 23.8325C12.3624 23.8325 11.7143 23.1661 11.7143 22.4164Z"></path>
+                                             <path fill="currentColor" d="M8.14983 22.4164C8.14983 21.6666 8.7169 21.0002 9.527 21.0002C10.3371 21.0002 10.9852 21.6666 10.9042 22.4164C10.9042 23.1661 10.3371 23.8325 9.527 23.8325C8.79791 23.8325 8.14983 23.1661 8.14983 22.4164Z"></path>
+                                          </svg>
+                                       </div>
+                                    </div>
+                                    <a class="lotonyzyvapi bufinu" href="https://help.steampowered.com/" target="_blank" rel="noreferrer">Помогите, я не могу войти в свой аккаунт</a>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="zisaqa">
+                  <div class="pykafynyzyl">
+                     <div class="misuv">Присоединитесь к Steam и откройте для себя тысячи игр.</div>
+                     <a class="mowupa vodatapuko" href="https://store.steampowered.com/about" target="_blank" rel="noreferrer">Узнать больше</a>
+                  </div>
+                  <img alt="Join Steam" class="sasuwofah pykafynyzyl" src="images/c38d641.png">
+                  <div class="zimoqene pykafynyzyl">
+                     <a href="https://store.steampowered.com/join" class="wediv qanelely" target="_blank" rel="noreferrer">
+                     <span>Присоединиться к Steam</span>
+                     </a>
+                     <div class="misuv">Steam бесплатен и удобен в использовании.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="fudes" class=""></div>
+         <div id="wyrof"></div>
+         <div id="gogepo">
+            <div class="qocol">
+               <span id="vulofuhonafe"><img src="images/15f51f4.png" width="96" height="26" border="0" alt="Valve Logo"></span>
+               <span id="xeluri">
+               © Valve Corporation. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах. Часть географических сведений на этом сайте предоставлена <a href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org" target="_blank" rel=" noopener">geonames.org</a>.					<br>
+											<span class="qebop">
+							<a href="http://store.steampowered.com/privacy_agreement/" target="_blank" rel="noreferrer">Политика конфиденциальности</a>
+							&nbsp; | &nbsp;<a href="https://store.steampowered.com/legal/" target="_blank" rel="noreferrer">Правовая информация</a>
+							&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank" rel="noreferrer">Соглашение подписчика Steam</a>
+                            &nbsp;| &nbsp;<a href="http://store.steampowered.com/account/cookiepreferences/" target="_blank" rel="noreferrer">Файлы cookie</a>
+						</span>               </span>
+            </div>
+            <div class="nosywyreq">
+               <div id="narifeq" class="qanelely tizifowalu">
+                  <span>View mobile website</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="gosin" style="display: none;">
+      <div class="nokowykedo"></div>
+      <div class="cycapomucu"></div>
+      <div class="nibezat"></div>
+      <div class="nemod"></div>
+      <div class="picovukos"></div>
+      <div class="bezizo"></div>
+      <div class="qamidydi"></div>
+      <div class="hykicisis"></div>
+      <div class="gosiqe tetif"></div>
+   </div>
+</body></html>

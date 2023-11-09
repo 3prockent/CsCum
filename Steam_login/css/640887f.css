@@ -1,0 +1,2498 @@
+.wedoja:hover,.jazugepezu:hover,.kygic:hover {
+    color: #fff!important;
+    text-decoration: none!important
+}
+
+.tizifowalu,.wedoja,.wedoja:hover,.jazugepezu,.jazugepezu:hover,.kygic,.kygic:hover,kygic.sovosudojyqi {
+    text-decoration: none!important
+}
+
+.wediv,.tizifowalu,.nixicuc,.wedoja,.gizohorypoca,.jazugepezu,.kygic {
+    padding: 1px;
+    display: inline-block;
+    cursor: pointer
+}
+
+body,form,h1,h2,h3,h4,h5,h6 {
+    margin: 0
+}
+
+.qrlogin_LoginQR_1wtS3 {
+    position: relative;
+    width: calc(200px - 2.5em);
+    height: calc(200px - 2.5em);
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1.25em;
+    border-radius: .625em
+}
+
+.qrlogin_LoginQR_1wtS3.qrlogin_NonPublic_2iiMm {
+    border-color: #f0f
+}
+
+.qrlogin_LoginQR_1wtS3.qrlogin_QRLoginDeck_3pzmh {
+    width: 8em;
+    height: 8em;
+    padding: 1em;
+    border-color: #23262e;
+    border-radius: 0;
+    background-color: #fff
+}
+
+.qrlogin_Blur {
+    filter: blur(5px)
+}
+
+.qrlogin_Overlay_2VJKT {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C {
+    display: flex;
+    border-radius: 3px;
+    padding: 12px;
+    background-color: rgba(0,0,0,.75);
+    color: #fff;
+    font-size: 16px
+}
+
+.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton,.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:enabled,.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:disabled {
+    min-width: 10px;
+    padding: 5px 5px 2px 5px;
+    background: none
+}
+
+.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton.gpfocus,.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:enabled.gpfocus,.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:disabled.gpfocus {
+    outline: outset #fff 2px
+}
+
+.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:enabled:active.gpfocus {
+    background-color: #3d4450
+}
+
+.qrlogin_Overlay_2VJKT .qrlogin_Box_2Lr2C button.DialogButton:disabled {
+    background-color: none;
+    opacity: 0
+}
+
+.qrlogin_Column_2UEUT {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.qrlogin_Loading_3wHZW {
+    border-radius: 50%;
+    margin: auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(255,255,255,.2);
+    border-right: 1.1em solid rgba(255,255,255,.2);
+    border-bottom: 1.1em solid rgba(255,255,255,.2);
+    border-left: 1.1em solid #fff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: qrlogin_LoadAmin_1xU0q 1.1s infinite linear;
+    animation: qrlogin_LoadAmin_1xU0q 1.1s infinite linear
+}
+
+.qrlogin_Loading_3wHZW.qrlogin_Small_2qsUN {
+    width: 3em;
+    height: 3em;
+    min-width: 3em;
+    min-height: 3em;
+    border-top-width: .3em;
+    border-right-width: .3em;
+    border-bottom-width: .3em;
+    border-left-width: .3em
+}
+
+.qrlogin_Loading_3wHZW.qrlogin_Medium_1nypP {
+    width: 6em;
+    height: 6em;
+    min-width: 6em;
+    min-height: 6em;
+    border-top-width: .4em;
+    border-right-width: .4em;
+    border-bottom-width: .4em;
+    border-left-width: .4em
+}
+
+.qrlogin_Loading_3wHZW.qrlogin_Large_elAzl {
+    width: 10em;
+    height: 10em;
+    min-width: 10em;
+    min-height: 10em;
+    border-top-width: 1.1em;
+    border-right-width: 1.1em;
+    border-bottom-width: 1.1em;
+    border-left-width: 1.1em
+}
+
+@-webkit-keyframes qrlogin_LoadAmin_1xU0q {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes qrlogin_LoadAmin_1xU0q {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+
+.wedoja {
+    border-radius: 2px;
+    border: none;
+    color: #d2e885!important;
+    background: #a4d007;
+    background: -webkit-linear-gradient(top,#a4d007 5%,#536904 95%);
+    background: linear-gradient(to bottom,#a4d007 5%,#536904 95%)
+}
+
+.wedoja>span {
+    border-radius: 2px;
+    display: block;
+    background: #799905;
+    background: -webkit-linear-gradient(top,#799905 5%,#536904 95%);
+    background: linear-gradient(to bottom,#799905 5%,#536904 95%)
+}
+
+.wedoja:hover {
+    background: #b6d908;
+    background: -webkit-linear-gradient(top,#b6d908 5%,#80a006 95%);
+    background: linear-gradient(to bottom,#b6d908 5%,#80a006 95%)
+}
+
+.wedoja:hover>span {
+    background: #a1bf07;
+    background: -webkit-linear-gradient(top,#a1bf07 5%,#80a006 95%);
+    background: linear-gradient(to bottom,#a1bf07 5%,#80a006 95%)
+}
+
+.jazugepezu {
+    border-radius: 2px;
+    border: none;
+    color: #a4d7f5!important;
+    background: #2f89bc;
+    background: -webkit-linear-gradient(top,#2f89bc 5%,#17435c 95%);
+    background: linear-gradient(to bottom,#2f89bc 5%,#17435c 95%)
+}
+
+.jazugepezu>span {
+    border-radius: 2px;
+    display: block;
+    background: #21658a;
+    background: -webkit-linear-gradient(top,#21658a 5%,#17435c 95%);
+    background: linear-gradient(to bottom,#21658a 5%,#17435c 95%)
+}
+
+.jazugepezu:hover {
+    background: #66c0f4;
+    background: -webkit-linear-gradient(top,#66c0f4 5%,#2f89bc 95%);
+    background: linear-gradient(to bottom,#66c0f4 5%,#2f89bc 95%)
+}
+
+.tizifowalu:hover>span,.jazugepezu:hover>span,.kygic:hover>span {
+    background: 0 0
+}
+
+jazugepezu.sovosudojyqi {
+    text-decoration: none!important;
+    color: #323b49!important;
+    background: #fff!important
+}
+
+jazugepezu.sovosudojyqi>span {
+    background: #989b9e;
+    background: -webkit-linear-gradient(top,#989b9e 5%,#aeb1b5 95%);
+    background: linear-gradient(to bottom,#989b9e 5%,#aeb1b5 95%)
+}
+
+.kygic {
+    border-radius: 2px;
+    border: none;
+    color: #f5d7a4!important;
+    background: #bc2f2f;
+    background: -webkit-linear-gradient(top,#bc2f2f 5%,#5c2517 95%);
+    background: linear-gradient(to bottom,#bc2f2f 5%,#5c2517 95%)
+}
+
+.kygic>span {
+    border-radius: 2px;
+    display: block;
+    background: #8a3321;
+    background: -webkit-linear-gradient(top,#8a3321 5%,#5c2517 95%);
+    background: linear-gradient(to bottom,#8a3321 5%,#5c2517 95%)
+}
+
+.kygic:hover {
+    background: #f45c66;
+    background: -webkit-linear-gradient(top,#f45c66 5%,#bc432f 95%);
+    background: linear-gradient(to bottom,#f45c66 5%,#bc432f 95%)
+}
+
+kygic.sovosudojyqi {
+    color: #493b32!important;
+    background: #fff!important
+}
+
+kygic.sovosudojyqi>span {
+    background: #9e9b98;
+    background: -webkit-linear-gradient(top,#9e9b98 5%,#b5b1ae 95%);
+    background: linear-gradient(to bottom,#9e9b98 5%,#b5b1ae 95%)
+}
+
+.tizifowalu {
+    border-radius: 2px;
+    border: none;
+    color: #66c0f4!important;
+    background: #212c3d
+}
+
+.wediv,.wediv:hover,.tizifowalu:hover {
+    color: #fff!important;
+    text-decoration: none!important
+}
+
+.tizifowalu>span {
+    border-radius: 2px;
+    display: block;
+    background: 0 0
+}
+
+.tizifowalu:hover {
+    background: #66c0f4
+}
+
+.wediv {
+    border-radius: 2px;
+    border: none;
+    background: 0 0
+}
+
+.wediv>span {
+    border-radius: 2px;
+    display: block;
+    background: 0 0;
+    border: 1px solid rgba(255,255,255,.4)
+}
+
+.wediv:hover {
+    background: 0 0
+}
+
+.wediv:hover>span {
+    background: 0 0;
+    border: 1px solid #fff;
+    border-radius: 2px
+}
+
+.gizohorypoca {
+    border-radius: 2px;
+    border: none;
+    text-decoration: none!important;
+    color: #d2efa9;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3)
+}
+
+.gizohorypoca>span {
+    border-radius: 2px;
+    display: block;
+    background: #6fa720;
+    background: -webkit-linear-gradient(top,#6fa720 5%,#588a1b 95%);
+    background: linear-gradient(to right,#75b022 5%,#588a1b 95%)
+}
+
+.nixicuc:hover,.gizohorypoca:hover,gizohorypoca.sovosudojyqi {
+    text-decoration: none!important;
+    color: #fff
+}
+
+.gizohorypoca:hover>span,gizohorypoca.sovosudojyqi>span {
+    background: #8ed629;
+    background: -webkit-linear-gradient(top,#8ed629 5%,#6aa621 95%);
+    background: linear-gradient(to right,#8ed629 5%,#6aa621 95%)
+}
+
+.nixicuc {
+    border-radius: 2px;
+    border: none;
+    text-decoration: none!important;
+    color: #dfe3e6
+}
+
+.nixicuc>span {
+    border-radius: 2px;
+    display: block;
+    background: #75b022;
+    background: -webkit-linear-gradient(top,#75b022 5%,#588a1b 95%);
+    background: linear-gradient(to right,#32363f 5%,#32363f 95%);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    transition: .2s ease-out
+}
+
+.nixicuc:hover>span {
+    background: #8ed629;
+    background: -webkit-linear-gradient(top,#8ed629 5%,#6aa621 95%);
+    background: linear-gradient(to right,#464d58 5%,#464d58 95%);
+    box-shadow: 2px 2px 15px rgba(0,0,0,.5)
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: none
+}
+
+.qanelely>span,input.qanelely {
+    padding: 0 15px;
+    font-size: 15px;
+    line-height: 30px
+}
+
+button:disabled {
+    opacity: .45;
+    cursor: default
+}
+
+button:disabled:hover {
+    text-decoration: none
+}
+
+:root {
+    --gpSystemLightestGrey: #DCDEDF;
+    --gpSystemLighterGrey: #B8BCBF;
+    --gpSystemLightGrey: #8B929A;
+    --gpSystemGrey: #67707B;
+    --gpSystemDarkGrey: #3D4450;
+    --gpSystemDarkerGrey: #23262E;
+    --gpSystemDarkestGrey: #0E141B;
+    --gpStoreLightestGrey: #CCD8E3;
+    --gpStoreLighterGrey: #A7BACC;
+    --gpStoreLightGrey: #7C8EA3;
+    --gpStoreGrey: #4e697d;
+    --gpStoreDarkGrey: #2A475E;
+    --gpStoreDarkerGrey: #1B2838;
+    --gpStoreDarkestGrey: #000F18;
+    --gpGradient-StoreBackground: linear-gradient(180deg, var(--gpStoreDarkGrey) 0%, var(--gpStoreDarkerGrey) 80%);
+    --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px, #3D4450 0%, #23262E 80%);
+    --gpColor-Blue: #1A9FFF;
+    --gpColor-BlueHi: #00BBFF;
+    --gpColor-Green: #5ba32b;
+    --gpColor-GreenHi: #59BF40;
+    --gpColor-Orange: #E35E1C;
+    --gpColor-Red: #D94126;
+    --gpColor-RedHi: #EE563B;
+    --gpColor-DustyBlue: #417a9b;
+    --gpColor-LightBlue: #B3DFFF;
+    --gpColor-Yellow: #FFC82C;
+    --gpColor-ChalkyBlue: #66C0F4;
+    --gpBackground-LightSofter: #6998bb24;
+    --gpBackground-LightSoft: #3b5a7280;
+    --gpBackground-LightMedium: #678BA670;
+    --gpBackground-LightHard: #93B8D480;
+    --gpBackground-LightHarder: #aacce6a6;
+    --gpBackground-DarkSofter: #0e141b33;
+    --gpBackground-DarkSoft: #0e141b66;
+    --gpBackground-DarkMedium: #0e141b99;
+    --gpBackground-DarkHard: #0e141bcc;
+    --gpBackground-Neutral-LightSofter: rgba(235, 246, 255, 0.10);
+    --gpBackground-Neutral-LightSoft: rgba(235, 246, 255, 0.20);
+    --gpBackground-Neutral-LightMedium: rgba(235, 246, 255, 0.30);
+    --gpBackground-Neutral-LightHard: rgba(235, 246, 255, 0.40);
+    --gpBackground-Neutral-LightHarder: rgba(235, 246, 255, 0.50);
+    --gpCorner-Small: 1px;
+    --gpCorner-Medium: 2px;
+    --gpCorner-Large: 3px;
+    --gpSpace-Gutter: 24px;
+    --gpSpace-Gap: 12px;
+    --gpNavWidth: 240px;
+    --gpPaymentsNavWidth: 340px;
+    --gpDselectWidth: 340px;
+    --gpSidePanelWidth: 340px;
+    --gpGiftingPanelWidth: 280px;
+    --gpCommunityRightPanelWidth: 320px;
+    --gpVerticalResponsivePadding-Small: calc((100vw - 854px) / 60);
+    --gpVerticalResponsivePadding-Medium: calc((100vw - 854px) / 20);
+    --gpVerticalResponsivePadding-Large: calc((100vw - 854px) / 12);
+    --screen-width: 100vw;
+    --gpWidth-6colcap: calc((var(--screen-width) - (5 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 6);
+    --gpWidth-5colcap: calc((var(--screen-width) - (4 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 5);
+    --gpWidth-4colcap: calc((var(--screen-width) - (3 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 4);
+    --gpWidth-3colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 3);
+    --gpWidth-2colcap: calc((var(--screen-width) - (1 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 2);
+    --gpWidth-1colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gutter))));
+    --gpStoreMenuHeight: 58px;
+    --gpShadow-Small: 0px 2px 2px 0px #0000003D;
+    --gpShadow-Medium: 0px 3px 6px 0px #0000003D;
+    --gpShadow-Large: 0px 12px 16px 0px #0000003D;
+    --gpShadow-XLarge: 0px 24px 32px 0px #0000003D;
+    --gpText-HeadingLarge: normal 700 26px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --gpText-HeadingMedium: normal 700 22px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --gpText-HeadingSmall: normal 700 18px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --gpText-BodyLarge: normal 400 16px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --gpText-BodyMedium: normal 400 14px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --gpText-BodySmall: normal 400 12px/1.4 "Motiva Sans",Arial,Sans-serif;
+    --indent-level: 0;
+    --field-negative-horizontal-margin: 0px;
+    --field-row-children-spacing: 0px
+}
+
+@media screen and (min-width: 1280px) {
+    :root {
+        --gpSpace-Gutter:calc(24px + 2vw)
+    }
+}
+
+.gosin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    font-family: "Motiva Sans",sans-serif
+}
+
+.gosiqe.tetif {
+    margin: 11px
+}
+
+.pyxufigomo {
+    z-index: 200;
+    position: absolute;
+    box-shadow: 0 0 12px #000
+}
+
+html.nedehuw.mojedetomy .pyxufigomo.kelejykese {
+    position: static;
+    box-shadow: none
+}
+
+.pyxufigomo .qefajad {
+    border: 1px solid #171a21;
+    position: relative;
+    background-color: #171a21
+}
+
+.bivipyroryxe a.dizafe,.guximuzi,.guximuzi:hover {
+    display: block;
+    text-decoration: none
+}
+
+.bivipyroryxe .dizafe {
+    padding: 5px 12px;
+    color: #b8b6b4;
+    text-transform: none;
+    font-family: Motiva Sans,Arial,Helvectica,Verdana,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    cursor: pointer
+}
+
+html.nedehuw.catokary .bivipyroryxe .dizafe {
+    font-size: 14px;
+    line-height: 18px
+}
+
+.bivipyroryxe span.dizafe {
+    cursor: default
+}
+
+.bivipyroryxe .dizafe.zonunoc,.bivipyroryxe .dizafe:hover,div#xewynirihi .sekehawy.sovosudojyqi,div#xewynirihi .sekehawy:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.dizafe {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.bowud {
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 400;
+    position: absolute;
+    max-width: 900px;
+    min-width: 500px;
+    background: radial-gradient(circle at top left,rgba(74,81,92,.4) 0,rgba(75,81,92,0) 60%),#25282e
+}
+
+.hodopyki {
+    position: fixed;
+    z-index: 900;
+    background: #000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.feziz .fejoxoka {
+    padding: 32px 32px 0;
+    display: block
+}
+
+.feziz .javesizapem {
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 200;
+    font-size: 19px;
+    text-transform: none;
+    line-height: 20px;
+    letter-spacing: 0;
+    padding: 0 32px;
+    display: block
+}
+
+.fotizuw {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,#0cf,#36f)
+}
+
+.feziz {
+    padding: 0;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: unset;
+    text-transform: unset;
+    flex-shrink: 0
+}
+
+.zicic {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVBREZBRDlBNzdCNzExRTI5ODAzRUE3MDU0Mzk5MjM5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVBREZBRDlCNzdCNzExRTI5ODAzRUE3MDU0Mzk5MjM5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NUFERkFEOTg3N0I3MTFFMjk4MDNFQTcwNTQzOTkyMzkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NUFERkFEOTk3N0I3MTFFMjk4MDNFQTcwNTQzOTkyMzkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4iulRzAAABPElEQVR42mI8cuQIAyWABUqbAXEylH0fiDtwqI8FYhsoewEQH4cZcBaI64DYG8p/AVWADDyAeD4QMwPxJiA+BRJkgkr+BeJoIL4D5U8DYi0kzepAvAKq+TJU7V9kA0DgIxD7Q2lOIF4NpfmBeAuUfg3EPkD8BaaJCc2Z14A4EcoGuWAC1NkqQPwLqvkRsgYmLAG1HoiboOw0IA6EshNh/iZkAAjUA/FBJP5KIF6GTSEuAwygUQsDflAxogwQAuJ10AAExcpNKHsjEIsSMoAZGl2K0EALBeIIKFsOKSpxGtACxK5Qdi4QX4DiAqiYExB34TIgBIgrkAJtFpLcdKgYCBQBcRRMghGamUBxfhKIeaB+NkFOLFAAkjsDTZXfgdgK5DpYXvBGiqYpWDQzQMVAYZKDlDcuMFKanQECDAAqw0LA+GRiqAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+    height: 16px;
+    width: 16px;
+    opacity: .7
+}
+
+.zicic:hover,button.qekyfas:hover::before {
+    opacity: 1
+}
+
+.limagyjyqah {
+    padding: 0 1px 1px;
+    display: flex
+}
+
+.fubosarebe {
+    width: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 32px;
+    font-size: 14px;
+    color: #acb2b8;
+    position: relative
+}
+
+.vivusoxy {
+    text-align: right
+}
+
+.vivusoxy .qanelely {
+    margin-left: 12px;
+    margin-top: 12px
+}
+
+.wabisah {
+    font-size: 14px;
+    margin-bottom: 8px
+}
+
+.myfefixepizi {
+    line-height: 32px
+}
+
+
+.rodun {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1200
+}
+
+.husuhomyx {
+    padding: 6px 10px 6px 6px;
+    background-color: #3b3938;
+    border: 1px solid #797979;
+    margin: 12px;
+    box-shadow: 0 0 12px #000;
+    white-space: nowrap
+}
+
+div#xewynirihi,div#gogepo {
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+div.puzovikyfo {
+    width: 940px;
+    margin: 0 auto
+}
+
+div#xewynirihi {
+    background: center top #171a21;
+    min-width: 940px;
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 400;
+    font-size: 14px
+}
+
+div#xewynirihi .xezunezo {
+    background: #171a21;
+    position: relative;
+    width: 940px;
+    height: 104px;
+    margin: 0 auto;
+    z-index: 402
+}
+
+div#larekoxyzoz {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    z-index: 401
+}
+
+div#larekoxyzoz a.lywiso {
+    padding: 0 4px;
+    color: #b8b6b4
+}
+
+.ryvog:hover,div#xewynirihi .godageravehu.sovosudojyqi,div#xewynirihi .godageravehu:hover,div#larekoxyzoz .lywiso:hover {
+    text-decoration: none;
+    color: #fff
+}
+
+div#larekoxyzoz #nyxuvusetuko {
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block
+}
+
+#nyxuvusetuko>* {
+    vertical-align: top
+}
+
+div#xewynirihi div.dunupajyqaw {
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+    width: 176px;
+    height: 44px
+}
+
+div#xewynirihi .sekehawy {
+    display: block;
+    position: relative;
+    padding: 45px 7px 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase
+}
+
+#josefetyce {
+    display: inline-block;
+    padding-left: 4px;
+    line-height: 25px
+}
+
+#josefetyce.zonunoc,#gogepo a:hover,.ruxob a:hover,.guximuzi:hover h3,.guximuzi:hover h5,a.kovewibyto:hover {
+    color: #fff
+}
+
+.zutusodysoxi {
+    display: inline-block;
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px
+}
+
+.buwab .ryvog {
+    background-color: #5c7e10
+}
+
+.ryvog {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url('images/96afa2d.png');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: 400
+}
+
+.kovewibyto {
+    font-weight: 700;
+    padding: 0 54px
+}
+
+#xewynirihi .lozyt {
+    position: absolute;
+    left: 200px
+}
+
+.hivikyfoxyc {
+    max-width: 132px;
+    z-index: 500
+}
+
+.byfamehevoz,.bewoqezogo {
+    color: #3d3d3f;
+    max-width: 225px;
+    box-shadow: 0 0 3px #000
+}
+
+.hivikyfoxyc a.godageravehu,.hivikyfoxyc>a {
+    display: block;
+    padding: 6px 0;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.hivikyfoxyc a.godageravehu:hover,.hivikyfoxyc>a:hover {
+    color: #4897cf;
+    text-decoration: none
+}
+
+.fypejipifa,.zodysaboruk {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0
+}
+
+.fypejipifa iframe,.zodysaboruk iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.byfamehevoz {
+    background-color: #c2c2c2;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 11px;
+    text-align: left
+}
+
+.meticobeq div.tojitufid {
+    transition: left .3s,top .3s
+}
+
+@keyframes jatexa {
+    0%,100%,55% {
+        transform: scale(1,.6);
+        background-color: #67c1f5
+    }
+
+    30% {
+        transform: scale(1,1);
+        background-color: #67c1f5
+    }
+}
+
+@-webkit-keyframes jatexa {
+    0%,100%,55% {
+        -webkit-transform: scale(1,.7);
+        background-color: #67c1f5
+    }
+
+    30% {
+        -webkit-transform: scale(1,1);
+        background-color: #67c1f5
+    }
+}
+
+.fifyh {
+    font-size: 18px;
+    padding-bottom: 20px
+}
+
+.wubezyvedy {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center
+}
+
+.wubezyvedy .leguvaduzi {
+    width: 120px;
+    height: 45px
+}
+
+.wubezyvedy .quqosi {
+    margin-left: 20px
+}
+
+html.nedehuw.catokary .bowud {
+    min-width: 0
+}
+
+html.nedehuw.catokary .hodopyki {
+    position: absolute
+}
+
+html.nedehuw.pusiqa .bowud {
+    min-width: 500px
+}
+
+html,html.nedehuw {
+    height: 100%
+}
+
+body,textarea {
+    font-family: Arial,Helvetica,Verdana,sans-serif
+}
+
+body,button {
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif
+}
+
+a {
+    color: #ebebeb;
+    text-decoration: none;
+    cursor: pointer
+}
+
+form {
+    padding: 0
+}
+
+input[type=number],input[type=password],input[type=text],select {
+    color: #909090;
+    background-color: rgba(0,0,0,.2);
+    border: 1px solid #000;
+    border-radius: 3px
+}
+
+#gogepo {
+    position: relative;
+    text-align: left;
+    width: auto;
+    font-size: 12px;
+    color: #8f98a0;
+    border: 0;
+    margin: 0;
+    padding: 32px 0;
+    background-color: rgba(0,0,0,.4)
+}
+
+.myvimumoguhu {
+    background-color: #212328!important
+}
+
+.cusezyf {
+    background-color: #fff!important
+}
+
+.jyfifyw,.lujawuby,body #gogepo .nosywyreq,html.nedehuw body.zevuxutu div.libihejynyge,html.nedehuw body.gagopanobi div.jyfifyw,html.nedehuw.catokary div#xewynirihi,html.nedehuw.catokary div#fudes,html.nedehuw.catokary div#gogepo {
+    display: none
+}
+
+#gogepo .qocol {
+    position: relative;
+    width: 958px;
+    margin: 0 auto
+}
+
+#gogepo a {
+    color: #c6d4df;
+    text-decoration: none
+}
+
+#xeluri {
+    padding: 2px 0 0 123px;
+    line-height: 14px;
+    display: block;
+    color: #8f98a0
+}
+
+#vulofuhonafe {
+    position: absolute;
+    left: 16px;
+    top: 4px
+}
+
+.qebop {
+    margin: 15px 0 0;
+    display: block
+}
+
+.vozyxyjelo {
+    height: 396px
+}
+
+img.wekubifi {
+    vertical-align: text-bottom;
+    height: 18px;
+    width: 18px
+}
+
+.bewoqezogo {
+    background: #c2c2c2;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 5px;
+    white-space: normal
+}
+
+.jigafejomypu {
+    max-width: 502px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px
+}
+
+.guximuzi h3,.rituxy {
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 400
+}
+
+.ficasywub {
+    color: #67c1f5;
+    font-size: 24px;
+    font-weight: 400
+}
+
+.rituxy {
+    font-size: 22px;
+    color: #fff
+}
+
+.vudace {
+    font-size: 13px;
+    color: #66c0f4;
+    font-weight: 700
+}
+
+.pilat,.leluqo {
+    position: relative;
+    padding-left: 70px;
+    min-height: 92px
+}
+
+.luzite.gamozumepali {
+    background-position: center -48px
+}
+
+.sadycujo {
+    color: #8f98a0;
+    font-size: 12px;
+    min-height: 38px
+}
+
+.xyxekifo,.rureqovu {
+    min-height: 32px;
+    margin-top: 4px;
+    margin-bottom: 6px
+}
+
+#kutit {
+    padding-bottom: 1.5em
+}
+
+.bufufotod.tydok .ledezokys.dulomoma,.bufufotod.zufyxojik .ledezokys.godesyd,.libihejynyge {
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.75)
+}
+
+input.sufidowek,input.hiqelel {
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+    margin-top: 6px;
+    color: #cdcac1;
+    outline: 0;
+    width: 220px;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 0
+}
+
+.ridaxociw::-webkit-input-placeholder {
+    text-align: left;
+    font-style: italic;
+    text-transform: none
+}
+
+.ridaxociw::-moz-placeholder {
+    text-align: left;
+    font-style: italic;
+    text-transform: none
+}
+
+.ridaxociw:-ms-input-placeholder {
+    text-align: left;
+    font-style: italic;
+    text-transform: none
+}
+
+
+
+.guximuzi {
+    background: rgba(47,137,188,.2);
+    width: 219px;
+    max-width: 47%;
+    min-height: 58px;
+    cursor: pointer
+}
+
+.zisaqa,body.nymagusac,body.nymagusac #fudes,body.nymagusac #gogepo {
+    background-color: #181a21
+}
+
+.guximuzi.vobotazoryl {
+    visibility: hidden
+}
+
+.guximuzi h3 {
+    font-size: 22px;
+    color: #66c0f4
+}
+
+.guximuzi h5 {
+    font-size: 13px;
+    color: #66c0f4;
+    text-transform: none
+}
+
+.nymagusac select,body.nymagusac {
+    color: #e9e9e9;
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 400
+}
+
+.torove {
+    display: flex;
+    flex-direction: row
+}
+
+.xovyluv .guximuzi {
+    float: left;
+    background: -webkit-linear-gradient(top,rgba(102,192,244,.2) 5%,rgba(47,137,188,.2) 95%);
+    background: linear-gradient(to bottom,rgba(102,192,244,.2) 5%,rgba(47,137,188,.2) 95%);
+    padding: 12px 0 15px;
+    border-radius: 2px;
+    box-sizing: content-box
+}
+
+.xovyluv .guximuzi.fefotypihe {
+    margin-right: 4%
+}
+
+.xovyluv .guximuzi>* {
+    padding: 0 5%
+}
+
+.xovyluv .guximuzi:hover {
+    background: -webkit-linear-gradient(top,#66c0f4 5%,#2f89bc 95%);
+    background: linear-gradient(to bottom,#66c0f4 5%,#2f89bc 95%)
+}
+
+button.guximuzi {
+    border: none
+}
+
+#cibupo {
+    height: auto;
+    margin: 32px 0 12px
+}
+
+@media screen and (max-width: 480px) {
+    html.nedehuw .rituxy {
+        font-size:16px
+    }
+
+    html.nedehuw .vudace {
+        font-size: 12px;
+        font-weight: 400
+    }
+}
+
+body.nymagusac .puzovikyfo {
+    padding: 0 8px;
+    width: 100%
+}
+
+body.nymagusac.vilehul .puzovikyfo {
+    background: radial-gradient(rgba(24,26,33,0) 0,#181a21 100%) no-repeat fixed,url('images/5db7e76.jpg') center top no-repeat,#181a21
+}
+
+.nymagusac .mowupa {
+    max-width: 60%;
+    text-align: center;
+    font-size: 14px
+}
+
+.vodatapuko {
+    margin-top: 10px;
+    color: #fff
+}
+
+.nymagusac select {
+    max-width: 300px;
+    background: #32353c;
+    border-radius: 3px;
+    padding: 8px 6px;
+    display: block;
+    box-shadow: none;
+    width: 100%;
+    transition: border .5s ease-in-out;
+    border: 1px solid #26282d;
+    outline: 0
+}
+
+.sasuwofah {
+    width: 320px
+}
+
+.zimoqene {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px
+}
+
+.zimoqene a {
+    margin: 20px 0 10px;
+    display: block;
+    text-align: center
+}
+
+.zisaqa {
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: center
+}
+
+.pykafynyzyl {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px
+}
+
+.bufufotod {
+    position: relative
+}
+
+body.fykacemaxa,body.fykacemaxa .bufufotod {
+    overflow: hidden;
+    position: relative
+}
+
+html.nedehuw body {
+    min-height: 100%;
+    height: auto;
+    position: relative
+}
+
+.ledezokys {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #000;
+    z-index: 30;
+    width: 280px
+}
+
+.bufufotod:not(.vaniqiqyz) .ledezokys {
+    transition: left .5s,right .5s
+}
+
+.ledezokys.dulomoma {
+    left: -280px
+}
+
+.ledezokys.wezemito {
+    right: -280px
+}
+
+.bufufotod.tydok .ledezokys.dulomoma {
+    left: 0
+}
+
+.bufufotod.zufyxojik .ledezokys.wezemito {
+    right: 0
+}
+
+.tylaxe {
+    visibility: hidden;
+    opacity: 0;
+    background: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 25;
+    transition: visibility .5s,opacity .5s
+}
+
+.bufufotod.tydok .tylaxe,.bufufotod.zufyxojik .tylaxe {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility,opacity .5s
+}
+
+.xusecuwumet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+@font-face {
+    font-family: 'Motiva Sans';
+    src: url('/fonts/e75526d.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/fonts/e8787b4.ttf') format('truetype');*/
+/*    font-weight: 300;*/
+/*    font-style: normal*/
+/*}*/
+
+@font-face {
+    font-family: 'Motiva Sans';
+    src: url('/fonts/da9005b.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Motiva Sans';
+    src: url('/fonts/da5c9e9.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/zkwkr8nw/nwp250/e5dc249.ttf') format('truetype');*/
+/*    font-weight: 700;*/
+/*    font-style: normal*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/zkwkr8nw/nwp250/b294374.ttf') format('truetype');*/
+/*    font-weight: 400;*/
+/*    font-style: italic*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/zkwkr8nw/nwp250/f52d128.ttf') format('truetype');*/
+/*    font-weight: 300;*/
+/*    font-style: italic*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/zkwkr8nw/nwp250/da547f4.ttf') format('truetype');*/
+/*    font-weight: 700;*/
+/*    font-style: italic*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Motiva Sans';*/
+/*    src: url('/zkwkr8nw/nwp250/bf0c97d.ttf') format('truetype');*/
+/*    font-weight: 900;*/
+/*    font-style: normal*/
+/*}*/
+
+.pypityr {
+    background: #171a21;
+    font-size: 22px;
+    position: relative;
+    min-height: 100%
+}
+
+.jaguwo {
+    font-family: "Motiva Sans",Sans-serif;
+    font-weight: 200
+}
+
+.ledezokys.wezemito .xusecuwumet {
+    background: #171a21
+}
+
+.pypityr .sekehawy,.pypityr .godageravehu,.jadiwo .dizafe {
+    display: block;
+    padding: 0 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5em;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.pypityr .sekehawy {
+    position: relative;
+    color: #bdbdbd;
+    background: #171a21;
+    transition: background .25s,color .25s
+}
+
+.dulomoma .ciduke,.pypityr .sekehawy,.xywot .tyhivaxipifi {
+    border-top: 1px solid #2f3138;
+    border-bottom: 1px solid #000
+}
+
+.dulomoma .ciduke {
+    border-bottom: none
+}
+
+.pypityr .sekehawy.kiwalyzufuvu {
+    background: #192533;
+    color: #fff
+}
+
+.pypityr .sekehawy .jopube {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAwCAYAAACG5f33AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABFxJREFUeNrkmg9klGEcx5/dMY4Y44hjxIgxRpSy7NwspSmNWZayGGmKFJGylCJSmlJMKctiylKa5aZpSmmMMWIcY4xxjGPEmPX72ffN23Z7732f3/Pe+97tx9dtd/e87/N+7n1+/563Ym1tTbmx8fHxLnq5QzqYSqXmbO+rMrMoaZDUz5dX6MsRl/A66OU5KUFK0/9xVb42QOLr/UTaLwZIsI7hoFG8VUsapferyhDeI1In/o7xdZL2Og2ocFrCBKkFv0Rlvo9JR0grZQKvl3Qrz/tLpCRpxhNAgteEXyDmcNL3pHbSaonDu0B67PB5ln0/adYVQILHt+0X0g4XJ39G6ilheJ0IGoVsAXdixhEgwWugl68kLz7uHulaCcJj/z5s8++FbJ50ADA3AyR4dYCnE2Uvkp6UELwU/HvM47gMlvPifwAJXi3gJQSTOkV6UwLw9sBF6WYSvwFxKbJhjc8LJ/aSdDjk8HYjOErSMAaYy7eE+aDpQrlPAfsDZzsZQni8un4JV9kIqc1K3/IFkWos5XrBSRxzp4CM/foPFAK6NkZqtee+W6UxcUCsE5yMXcI+e8QK0KpwPQ2CY3wnHcIKc5VIJ3BSyS+WQdjPBggvBrfUKDjGJODlvJZyNfTyjVQjPHkzaTkAeFyCvkW+p2vTcEc5z7WwwfQmqLp50NYc0I22SacVVOGmHyhMsC0bQp5YrLr5Kem80P38S5hFAG0lHief1YJJFatu5sbvdcH4TSWbGKCtyZAWJqG3STd9hHeZ9ECYPfCdN+fmy54AAmIjIMYEk+zB3WjaulAN6dqWbStjAAFRtxD3s24+gYgbFcBr9pr8awEExKNoBVVqTngFWf2Yoc7KqGAuOcCb8jpQGyAgSn91E3Wzl+bvVnNgeD91BosAAiLnWQPCpZNEzuXV6gEvLoDH+emE7vVHDCwf9mPdwiI/rZGo78KyjQtcSJsEnimAbK/Uekda1xKA6BbGTk3odngnSZ+lF24KIBu3868Ixte5jOxWz1K3ycGV0Bm1vqOowgSQ7aEwSeaA8MEhmlqdFUmvshtlpQojQKvSuC8Y34JkOJqnszKsZN3yc3A3KswA2a6S+gTjObLbN7qjiPSS/RZ2L/2mL9QvgGyXSC8E47mT0mvrrHQIjnUD7sW4mcgDnT6OYjmeFpyC04wmwfi7AOiL+XkHWhHvLOmd4BgSeH1+wisGQAsiNw5GVHGtH25ElTpAe9Y/VqTzvUbEVeUC0IJ4XK1vD/ppQ3AbqtwA2ot3v55a+IgqY7VcAbLx9ibvsU4bPi7Xte2qyDt/QQBkywGiqUc/JpTteZXtAJAtC4gZ4XG4EdqqNjxysR0AsvGea1LpP1Y3BZ+6HNQFBA2QzXr22OtDSDOAlwty8mEAyMZ7sM3K/UNIs1j+2aAnHhaAFhQ3EC3Yi2GYdJgAulmWC4C3EJYJhw2gU2CwAs5cmCYbRoD5UhNTKc+2AWhPjrOGk26j9leAAQDu6F3rDzHr6wAAAABJRU5ErkJggg==');
+    background-size: 100% 100%;
+    width: 20px;
+    height: 12px;
+    position: absolute;
+    right: 12px;
+    top: calc(50% - 6px);
+    transition: transform .25s
+}
+
+.pypityr .sekehawy.kiwalyzufuvu .jopube {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg)
+}
+
+.xywot {
+    overflow: hidden;
+    background: #171a21;
+    transition: height .5s,background .25s,color .25s
+}
+
+.xywot.sovosudojyqi {
+    background: #192533
+}
+
+.jadiwo .dizafe,.xywot .godageravehu {
+    display: block;
+    font-size: .75em;
+    color: #fff;
+    padding-left: 28px
+}
+
+.tapydu .kepom {
+    display: inline-block;
+    color: #fff;
+    vertical-align: middle;
+    line-height: 140%;
+    padding: 0 8px;
+    font-size: .75em;
+    margin-left: .4em
+}
+
+.libihejynyge .dexeno img,.tapydu .subiqeq {
+    vertical-align: middle
+}
+
+.tapydu .kepom.dewywajyfe {
+    color: #fff;
+    background-color: #5c7e10
+}
+
+.dulomoma .ciduke .sekehawy {
+    color: #8a8a8a;
+    border: none;
+    font-size: .75em
+}
+
+.vycug {
+    height: 160px
+}
+
+.ruxob {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 10px;
+    white-space: normal;
+    color: #8a8a8a;
+    padding: 0 12px 24px
+}
+
+.ruxob .zuqyvivapom>a,.ruxob a {
+    color: #8a8a8a
+}
+
+.bufufotod.liqyhudev .jyfifyw {
+    top: 68px
+}
+
+.bufufotod.tydok .jyfifyw,button.qekyfas:active::before,button.qekyfas:disabled::before,button.qekyfas:disabled:hover::before {
+    opacity: 0
+}
+
+.libihejynyge {
+    display: none;
+    background: #171a21;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 20;
+    overflow: hidden;
+    padding: 13px 8px
+}
+
+@media screen and (max-height: 360px) {
+    .libihejynyge {
+        position:absolute
+    }
+}
+
+#lifamipodyn {
+    position: absolute;
+    top: 9px;
+    cursor: pointer;
+    width: 36px;
+    height: 31px;
+    left: 8px
+}
+
+.libihejynyge .dexeno a {
+    display: inline-block
+}
+
+.tucynyji {
+    padding: 16px
+}
+
+.qigygyvas {
+    font-size: 24px
+}
+
+html.nedehuw.catokary div.libihejynyge,html.nedehuw.catokary div.lujawuby,html.nedehuw.catokary h2.lujawuby {
+    display: block
+}
+
+html.nedehuw.catokary div.qemege {
+    position: relative;
+    z-index: 10
+}
+
+html.nedehuw.catokary .bufufotod.liqyhudev div.qemege {
+    padding-top: 62px
+}
+
+html.nedehuw.catokary .fexehopyd {
+    padding-bottom: 120px;
+    min-height: calc(100vh - 120px)
+}
+
+@media screen and (max-width: 910px) {
+    html.nedehuw .pyxufigomo.kelejykese {
+        position:static;
+        box-shadow: none
+    }
+
+    html.nedehuw .bivipyroryxe .dizafe {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    html.nedehuw .feziz .fejoxoka {
+        padding: 32px 15px 0
+    }
+
+    html.nedehuw .fubosarebe {
+        max-width: 646px;
+        min-width: 280px;
+        padding: 15px
+    }
+
+    html.nedehuw .hodopyki {
+        position: absolute
+    }
+
+    html.nedehuw .bowud {
+        min-width: 500px
+    }
+
+    html.nedehuw {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    html.nedehuw input[type=password],html.nedehuw input[type=text] {
+        font-size: 16px
+    }
+
+    html.nedehuw .qemege .duweqidoru,html.nedehuw div#xewynirihi,html.nedehuw div#fudes,html.nedehuw div#gogepo {
+        display: none
+    }
+
+    html.nedehuw a.lujawuby,html.nedehuw div.libihejynyge,html.nedehuw div.lujawuby,html.nedehuw h2.lujawuby,html.nedehuw img.lujawuby {
+        display: block
+    }
+
+    html.nedehuw div.qemege {
+        position: relative;
+        z-index: 10
+    }
+
+    html.nedehuw .bufufotod.liqyhudev div.qemege {
+        padding-top: 62px
+    }
+
+    html.nedehuw .fexehopyd {
+        padding-bottom: 120px;
+        min-height: calc(100vh - 120px)
+    }
+
+    html.nedehuw span.lujawuby {
+        display: inline
+    }
+}
+
+html.bokugy body #gogepo .nosywyreq {
+    display: block;
+    text-align: center;
+    padding: 20px 0
+}
+
+html.bokugy body #wyrof {
+    height: 64px
+}
+
+.nosywyreq .qanelely>span {
+    line-height: 150%
+}
+
+@media screen and (max-device-width: 640px) {
+    .nosywyreq .qanelely>span {
+        font-size:22px
+    }
+
+    html.bokugy body #wyrof {
+        height: 75px
+    }
+}
+
+@media screen and (max-device-width: 500px) {
+    .nosywyreq .qanelely>span {
+        font-size:26px
+    }
+
+    html.bokugy body #gogepo .nosywyreq {
+        padding: 25px 0
+    }
+
+    html.bokugy body #wyrof {
+        height: 91px
+    }
+}
+
+@media screen and (max-device-width: 400px) {
+    .nosywyreq .qanelely>span {
+        font-size:34px
+    }
+
+    html.bokugy body #gogepo .nosywyreq {
+        padding: 40px 0
+    }
+
+    html.bokugy body #wyrof {
+        height: 133px
+    }
+}
+
+@media print {
+    html .ledezokys.dulomoma,html .ledezokys.wezemito,html .jyfifyw,html .libihejynyge {
+        display: none
+    }
+}
+
+.kanom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #171a21;
+    box-shadow: 0 2px 4px 0 #000;
+    z-index: 15
+}
+
+html.nedehuw body.zevuxutu.cawapeq .bufufotod.liqyhudev div.qemege {
+    padding-top: 0
+}
+
+html.nedehuw body.gagopanobi.cawapeq {
+    overflow: hidden;
+    background: 0 0
+}
+
+img {
+    border: none;
+    -webkit-user-drag: none
+}
+
+.zolubih {
+    padding-left: 5px;
+    padding-right: 18px;
+    background-image: url('data:image/gif;base64,R0lGODlhEwAMAIABAMXDwgAAACH5BAEAAAEALAAAAAATAAwAAAIUjI+py+0PEZh0wmpjjSfzD4aiUQAAOw==');
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+.tetif {
+    margin: 12px
+}
+
+.nokowykedo,.nibezat,.bezizo,.hykicisis {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVRJREFUeNq0VlGyAiEMo8Dq/a+rCzj66E7IS/FLZjqgQtq0oWjpb1hah4k17xk08/rz2TbgOPs6z7kD4Ng4TFWAMzCb/zbIFLvFQQSYaXaATvNQ6aoBOIKyeYrcjJwtTAocQkBflxmE2zG/Y0ZcP2diRUTuVsHBAVYEuIk6hDXIAHIQA99/TvMzz3nGozesgWJQKC0HOEuCxSDZuhNZZOXgBvN7PAh8QJE7YI1K2s6ChUd/Bwcs17c1OOtqsgo3lBkgi9u0O+ncgdvc3win5fTjoe6BumyYljZr8JjqeYKqGl3CD32UVaecnoFaGJyBL1XVQAlNNDhsBecm+qUvlaA9q6vv1gQ4s7j2F9GGo+s/KHVoXTBIzCCJlCTRnhtEjNbVG1EEMDNR9WFgfhuWdm0bGXOPYZX1IPKLgW1StHsyQ8BvNYgYMJseAP979O3Xf1teAgwAvqvFROfF+RQAAAAASUVORK5CYII=)
+}
+
+.nokowykedo {
+    top: 0;
+    left: 0;
+    background-position: top left
+}
+
+.nibezat {
+    top: 0;
+    right: 0;
+    background-position: top right
+}
+
+.bezizo {
+    bottom: 0;
+    left: 0;
+    background-position: bottom left
+}
+
+.hykicisis {
+    bottom: 0;
+    right: 0;
+    background-position: bottom right
+}
+
+.cycapomucu,.qamidydi {
+    position: absolute;
+    margin: 0 12px;
+    height: 12px;
+    left: 0;
+    right: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAaCAYAAAB2BDbRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD9JREFUeNo0zFEKQFAQAMB9u0hSEvc/IUk5gEb5mc+JiGj5kyh0GDBiwowFKzbsCBw4ceHGUwL0KCQa4uMVYAAMZQVwOy2LWAAAAABJRU5ErkJggg==);
+    background-repeat: repeat-x
+}
+
+.cycapomucu {
+    background-position: top;
+    top: 0
+}
+
+.qamidydi {
+    background-position: bottom;
+    bottom: 0
+}
+
+.nemod,.picovukos {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 12px 0;
+    width: 12px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAABCAYAAADAW76WAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD5JREFUeNosyssKQFAUAMBzkSQl8f9fKFIsyGuUxewmRUT6ZeQUlFTUNLR09Aw8jEzMLKxs7BycXNzffwUYAFWiDQPUjcVGAAAAAElFTkSuQmCC);
+    background-repeat: repeat-y
+}
+
+.nizow,.badadisifu {
+    margin: auto;
+    font-size: 10px;
+    text-indent: -9999em
+}
+
+.nemod {
+    background-position: left;
+    left: 0
+}
+
+.picovukos {
+    background-position: right;
+    right: 0
+}
+
+.hivikyfoxyc {
+    width: 132px;
+    background: #171a21;
+    padding: 5px 0 15px 15px;
+    box-shadow: 3px 3px 5px -3px #000;
+    text-align: left
+}
+
+/*@font-face {*/
+/*    font-family: nukixi;*/
+/*    src: url("/zkwkr8nw/nwp250/b916844.eot");*/
+/*    src: url("/zkwkr8nw/nwp250/b916844.eot?#iefix") format("embedded-opentype"),url("/zkwkr8nw/nwp250/b916844.woff2") format("woff2"),url("/zkwkr8nw/nwp250/b916844.woff") format("woff"),url("/zkwkr8nw/nwp250/b916844.ttf") format("truetype"),url("/zkwkr8nw/nwp250/b916844.svg#Password") format("svg")*/
+/*}*/
+
+#tugojebidu {
+    -webkit-text-security: disc!important;
+    font-family: nukixi,Sans-serif!important;
+    letter-spacing: .11em
+}
+
+.marop {
+    position: relative;
+    display: flex;
+    flex-direction: column
+}
+
+.marop .muqagyb {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-top: 10px
+}
+
+.marop .xibuk {
+    flex: 0;
+    display: grid;
+    gap: 4px;
+    margin-left: 40px
+}
+
+.marop .xibuk .sakym .rocytepykyx {
+    aspect-ratio: 1;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 8px
+}
+
+.marop .xibuk .kudupovo {
+    text-align: center;
+    font-size: 12px;
+    color: #afafaf;
+    padding: 12px 0
+}
+
+.marop .cywebuqeluv {
+    display: grid;
+    grid-template-areas: "label hint" "input input";
+    grid-template-columns: 1fr min-content;
+    gap: 2px
+}
+
+.marop .dukug {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: 0;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c
+}
+
+.marop .dukug:hover,.marop .nozinuryvu:hover .hogoxow,.marop .hogoxow:hover {
+    background-color: #393c44
+}
+
+.marop .dukug.pyzujuc,.marop .wijotopihygi.pyzujuc {
+    border-color: #c15755
+}
+
+.marop .nucyl {
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr
+}
+
+.marop .zadolugixi {
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none
+}
+
+.marop .zadolugixi.hogahuvusyvi {
+    color: #1999ff;
+    font-weight: 500
+}
+
+.marop .nozinuryvu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer
+}
+
+.marop .nozinuryvu .duwal {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px
+}
+
+.marop .hogoxow {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #32353c;
+    cursor: pointer
+}
+
+.marop .hogoxow .siqewyzyjo {
+    width: 100%;
+    height: 100%;
+    display: flex
+}
+
+.marop .hogoxow:focus,.marop .bojehar:focus {
+    outline: #06bfff solid 1px
+}
+
+.marop .noqyxe,.fudecijor {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.marop .noqyxe button {
+    width: 270px
+}
+
+.marop .bojehar {
+    position: relative;
+    background: linear-gradient(90deg,#06bfff 0,#2d73ff 100%);
+    border-radius: 2px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer
+}
+
+.marop .bojehar:hover {
+    background: linear-gradient(90deg,#06bfff 30%,#2d73ff 100%)
+}
+
+.marop .bojehar:active {
+    background: linear-gradient(90deg,#06bfff 50%,#2d73ff 100%)
+}
+
+.marop .bojehar:disabled {
+    opacity: .5
+}
+
+.marop .bojehar.jojunura {
+    color: transparent
+}
+
+.marop .bojehar .niwaqosu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.marop .lotonyzyvapi {
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.marop .lotonyzyvapi:hover {
+    color: #c9c9c9
+}
+
+.marop .nugaceg {
+    color: #c15755;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center
+}
+
+.marop .bufinu,.marop .vucowewa {
+    text-align: center
+}
+
+.marop .jotah {
+    display: flex;
+    flex-direction: column
+}
+
+.marop .bibixeponuni {
+    align-items: center
+}
+
+.marop .vucowewa .wibyqokojo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #afafaf
+}
+
+.marop .vucowewa .hevuzux {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff
+}
+
+.marop .vucowewa .qisatiqoqy {
+    font-size: 14px;
+    color: #afafaf;
+    opacity: .5;
+    font-weight: 500;
+    padding-top: 6px
+}
+
+.marop .rafocyj {
+    background-color: #32353c;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0;
+    border-radius: 2px;
+    max-width: 500px
+}
+
+.marop .golyxupi {
+    width: 40px;
+    color: #1a99ff
+}
+
+.marop .pydygaqep {
+    width: 55px;
+    color: #1a99ff
+}
+
+.marop .wewymasycas,.marop .huwyq {
+    padding: 12px 12px 24px;
+    gap: 24px
+}
+
+.marop .wewymasycas .wibyqokojo,.marop .huwyq .wibyqokojo {
+    font-size: 12px;
+    color: #afafaf;
+    text-align: center
+}
+
+.marop .wewymasycas .nunesip,.marop .wewymasycas .kigife,.marop .huwyq .nunesip,.marop .huwyq .kigife {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.marop .wewymasycas .nunesip .kafyv,.marop .wewymasycas .kigife .kafyv,.marop .huwyq .nunesip .kafyv,.marop .huwyq .kigife .kafyv {
+    color: #1999ff
+}
+
+.marop .wijotopihygi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 280px;
+    background-color: #2b2e33;
+    border-radius: 2px;
+    gap: 20px;
+    padding: 10px 28px 20px;
+    cursor: text;
+    border: 1px solid transparent;
+    position: relative
+}
+
+.marop .wijotopihygi .jojunura {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.4666666667);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.marop .wijotopihygi input {
+    background: 0 0;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid rgba(175,175,175,.25);
+    padding: 0;
+    color: #fff;
+    width: 40px;
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: 500;
+    text-align: center
+}
+
+.marop .napypujyqofe {
+    width: 100%
+}
+
+.marop .napypujyqofe .nikyt {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200
+}
+
+.marop .napypujyqofe .dawyvamykeva {
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+    min-width: 636px
+}
+
+.marop .pareza {
+    height: 46px;
+    width: 153px
+}
+
+.marop .zikawizucaje {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center
+}
+
+.nizow {
+    border-radius: 50%;
+    position: relative;
+    border-top: 1.1em solid rgba(255,255,255,.2);
+    border-right: 1.1em solid rgba(255,255,255,.2);
+    border-bottom: 1.1em solid rgba(255,255,255,.2);
+    border-left: 1.1em solid #fff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: 1.1s linear infinite tocyqynijezy;
+    animation: 1.1s linear infinite tocyqynijezy
+}
+
+.nizow.somuwenyr {
+    width: 2.4em;
+    height: 2.4em;
+    min-width: 2.4em;
+    min-height: 2.4em;
+    border-width: .3em
+}
+
+@-webkit-keyframes tocyqynijezy {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes tocyqynijezy {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.botaqeveru {
+    display: grid
+}
+
+.lemeqadab.gybid {
+    background-color: #212328
+}
+
+.lemeqadab {
+    background-color: #1999ff
+}
+
+.gopydiq {
+    position: relative;
+    width: calc(200px - 2.5em);
+    height: calc(200px - 2.5em);
+    border: 1.25em solid #fff;
+    border-radius: .625em
+}
+
+.gopydiq.rovycofato {
+    filter: blur(5px)
+}
+
+.sidyguwy {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.sidyguwy .pasucynygire {
+    display: flex;
+    border-radius: 3px;
+    padding: 12px;
+    background-color: rgba(0,0,0,.75);
+    color: #fff;
+    font-size: 16px
+}
+
+.badadisifu {
+    border-radius: 50%;
+    position: relative;
+    border-top: 1.1em solid rgba(255,255,255,.2);
+    border-right: 1.1em solid rgba(255,255,255,.2);
+    border-bottom: 1.1em solid rgba(255,255,255,.2);
+    border-left: 1.1em solid #fff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: 1.1s linear infinite dycitadahi;
+    animation: 1.1s linear infinite dycitadahi
+}
+
+.wabiqamihybi,.hesit {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.badadisifu.jipope {
+    width: 3em;
+    height: 3em;
+    min-width: 3em;
+    min-height: 3em;
+    border-width: .3em
+}
+
+@-webkit-keyframes dycitadahi {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes dycitadahi {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.mivywejunor {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+@media screen and (max-width: 700px) {
+    html.nedehuw .zisaqa {
+        flex-direction:column-reverse
+    }
+
+
+    .marop .muqagyb {
+        flex-direction: column
+    }
+
+    .marop .xibuk {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 48px
+    }
+
+    .marop .xibuk .sakym {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .marop .vucowewa .qisatiqoqy {
+        opacity: 1
+    }
+
+    .marop .wijotopihygi input {
+        width: 20%
+    }
+
+    .marop .napypujyqofe .nikyt {
+        text-align: center
+    }
+
+    .marop .napypujyqofe .dawyvamykeva {
+        min-width: 0;
+        background-color: rgba(0,0,0,0)
+    }
+
+    .mivywejunor {
+        padding-top: 12px;
+        padding-bottom: 0
+    }
+}
+
+.bucajoq {
+    fill: #fff;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px
+}
+
+body {
+    background: #1b2838;
+    text-align: left;
+    font-size: 14px;
+    padding: 0;
+    color: #969696
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 14px;
+    background: rgb(24,26,33);
+    z-index: 12;
+    overflow: visible
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #434953;
+    border-radius: 10px;
+    z-index: 12;
+    border: 4px solid rgb(24,26,33);
+    background-clip: padding-box;
+    transition: background-color .32s ease-in-out;
+    margin: 4px;
+    min-height: 32px;
+    min-width: 32px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4e5157
+}
+
+::-webkit-scrollbar-corner {
+    background: #202020
+}
+
+::selection {
+    background: #54a5d4;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6666666667);
+    color: #fff
+}
+
+button.qekyfas {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 0;
+    font: inherit;
+    overflow: visible;
+    padding: 0;
+    margin: 2px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    line-height: 32px;
+    color: #dfe3e6;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    transition-property: opacity,background,color,box-shadow;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    background: 99% 1%/300% 300% #3d4450;
+    position: relative
+}
+
+button.qekyfas::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.wabiqamihybi {
+    z-index: 1500
+}
+
+.hesit.sovosudojyqi {
+    z-index: 10
+}
+
+.puhyfu {
+    background: rgba(0,0,0,.8);
+    z-index: 7
+}
+
+button.qekyfas:focus {
+    outline: 0
+}
+
+button.qekyfas::before {
+    pointer-events: none;
+    user-select: none;
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.3);
+    opacity: 0;
+    transition: opacity .2s ease-in-out
+}
+
+button.qekyfas:enabled:active,button.qekyfas:enabled:active:hover {
+    background: #393f49;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.6);
+    transition-duration: .04s
+}
+
+button.qekyfas:hover {
+    background: #464d58;
+    color: #fff
+}
+
+button.qekyfas:disabled,button.qekyfas:disabled:hover {
+    background: rgba(61,67,77,.35);
+    color: #464d58;
+    box-shadow: none;
+    cursor: default;
+    pointer-events: none
+}
+
+.qekyfas .bucajoq {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 2px
+}
+
+.qekyfas:disabled .bucajoq {
+    opacity: .1
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside
+}
+
+@keyframes jatexa {
+    0%,100%,55% {
+        transform: scaleX(1) scaleY(.6)
+    }
+
+    30% {
+        transform: scaleX(1) scaleY(1)
+    }
+}
